@@ -1,0 +1,47 @@
+\subsection{Methode de Modélisation}
+      \paragraph{}
+      A fin de modeliser les fonctionnalitées de notre solution nous avons choisi le langage UML (Unified Modeling Language).
+      \paragraph{}
+	  Issu d’un large consensus, le langage UML garantit la stabilité et la performance d’un projet grâce à son caractère 
+	formel et industrialisé. Aussi facilite-t-il la compréhension du système par l’usage de représentations graphiques appelées
+    diagrammes.Ces diagrammes nous ont permis de modéliser notre solution suivant deux grands axes de modélisation à savoir : 
+    l’axe dynamique au travers des diagrammes de cas d’utilisation et de séquence et l’axe statique via les diagrammes de classes.
+    \paragraph{}
+	  Le diagramme de cas d'utilisation représente la structure des grandes fonctionnalités nécessaires aux
+    utilisateurs du système. C'est le premier diagramme du modèle UML, celui où s'assure la relation entre l'utilisateur
+    et les objets que le système met en œuvre.
+    \paragraph{}
+	  Le diagramme de séquence représente la succession chronologique des opérations réalisées par
+    un acteur.Ce mode de représentation effectue la description du fonctionnement dynamique du système,en d'autres termes il indique 
+    les objets que l'acteur va manipuler et les opérations qui font passer d'un objet à l'autre.
+    \paragraph{}
+	Le diagramme de classes est généralement considéré comme le plus important dans un développement
+    orienté objet.Il représente l'architecture conceptuelle du système : il décrit les classes que le système utilise, ainsi
+    que leurs liens, que ceux-ci représentent un emboîtage conceptuel (héritage) ou une relation organique (agrégation).
+    
+\subsection{Diagramme de cas d'utilisation}
+	  \begin{figure}[H]
+		     \begin{center}
+			\includegraphics[scale=0.5]{images/cas_utilisation.png}\\
+		     \end{center}
+		     \caption{Diagramme de cas d'utilisation}
+		     \label{Diagramme de cas d'utilisation}
+	  \end{figure}
+	  
+\subsection{Diagramme de sequence}
+	  \begin{figure}[H]
+		     \begin{center}
+			\includegraphics[scale=0.5]{images/sequence_visualiser_carte.png}\\
+		     \end{center}
+		     \caption{Diagramme de sequence <<Visualiser la carte >>}
+		     \label{Diagramme de sequence <<Visualier la carte >>}
+	  \end{figure}
+	  \begin{figure}[H]
+		     \begin{center}
+			\includegraphics[scale=0.5]{images/sequence_sur_carte.png}\\
+		     \end{center}
+		     \caption{Diagramme de sequence <<Positionner sur la carte >>}
+		     \label{Diagramme de sequence <<Positionner sur la carte >>}
+	  \end{figure}
+	  
+\subsection{Diagramme de classes}

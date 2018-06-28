@@ -1,0 +1,40 @@
+\introduction
+    \paragraph{}
+      \small{
+      L'informatique, science du traitement rationnel et automatisé de l'information, est devenue aujourd'hui un outil indispensable pour l'évolution de toute nation, de toute société. Elle est passée d'un statut luxueux à un statut nécessaire. La preuve: toute structure de renom investit un budget non n\'egligeable pour l'informatisation de ses opértions. Cependant, certains ont très vite profité de sa puissance pour pièger les autres, ignorant le fonctionnement de l'ordinateur dans le but de voler des informations précieuses et confidentielles pour des fins diverses: c'est la cybercriminalité. Vu l'ampleur que prend ces differents crimes, il devient necessaire de voir autrement l'importance de la s\'ecurit\'e dans tous les systemes d'informations.
+    
+    \section{Contexte et justification}
+       La sécurité de l'information revêtant une importance capitale pour la survie d'un peuple, il a fallu mettre en oeuvre un système de défense aux menaces qui surgissent pour réduire l'impact de ces attaques et essayer, au maximum, d'éliminer les risques. Parmi ces différentes attaques, celle opérée par webcam est d'une sévérité élevée, car elle permet de voir en direct l'utilisateur sans qu'il le sache. Le caractère critique de cette dernière devient plus grave quand l'utilisateur se retrouve nu devant son ordinateur. Alors qu'il se croit être seul, il est exposé à d'autres regards. De cette attaque, plusieurs autres telles que l'intrusion dans les systèmes sont opérées. Cette intrusion permet de se comporter comme propriétaire du système victime. Il faut donc répondre de manière éfficace afin de freiner l'ampleur de ces menaces. Notre thème de mémoire "Système de détection des attaques par webcam et de prévention d’intrusion sous Linux" s'inscrit donc dans cette dynamique. Il s'agit de réaliser un système de prévention et de détection de certaines de ces attaques. 
+	}
+    
+    \section{Problématique}
+    \small{
+	Les réseaux informatiques constituent des ressources indispensables pour les utilisateurs et un vaste champ de cibles potentielles pour les pirates informatiques. Cependant, nous sommes dans un monde où beaucoup de gens utilisent l'informatique sans se soucier des risques auxquels ils sont confrontés, surtout lorsque leurs ordinateurs ne sont soumis à aucune sécurité. Il est facile aujourd'hui de prendre possession d'un ordinateur non protégé dans un réseau informatique, de prendre possession de ses ressources telles que la webcam et l'audio pour ne citer que ces éléments-là.\\ Une des croyances les plus dangereuses est celle qui fait penser à une sécurité totale sur les systèmes Linux. De ces constats, nous pouvons dire que la sécurité des systèmes informatiques n'est pas maîtrisée pendant que les attaques sur les réseaux prennent de l'ampleur chaque jour. Les préoccupations abordées dans ce travail sont de deux ordres:  la première est relative à la détection de l'espionnage par la webcam et, la deuxième à la prévention des intrusions dans les systèmes. Les deux sont dédiées aux plate-formes Linux.  
+	 \\ \\}
+
+    \section{Objectifs}
+    \small{ 
+	  Notre projet à pour objectif principal de détecter les tentatives d'attaques par webcam sur les systèmes Linux et de mettre en place un mécanisme pour réduire les risques d'intrusion illicite dans les réseaux.
+	        
+	  Plus précisément, il s'agira :
+	
+    \begin{itemize}
+	\item d'alerter l'utilisateur de l'usage de sa webcam;
+	\item de lui proposer de couper le fonctionnement de la webcam ou de la laisser ouverte quand il est l'utilisateur légal;
+	\item de configurer le pare-feu par défaut de Linux afin de prévenir toute connexion indésirée en local et sur Internet;
+     \item de protéger l'ordinateur des dénis de service;
+        \item de limiter le nombre de connexions maximal par adresse IP.
+    \end{itemize}
+    }
+
+    \section{Environnement de stage}
+      \small{
+	Ce travail a \'et\'e r\'ealis\'e dans les locaux de la Direction des Systemes Informatiques de la Soci\'et\'e B\'eninoise d'Energie Electrique (SBEE) - Direction G\'en\'erale. 
+      }
+      
+    \section{Organisation du mémoire}
+	\small{
+	  Le présent travail se présente en trois (03) chapitres. Le premier concerne la revue de littérature sur le systeme existant (actuel) permettant le paiement des factures et .... . Le deuxième chapitre aborde les choix techniques opérés en vue de la conception et de la réalisation des solutions proposées. Le troisième chapitre, quant à lui, fait une analyse critique des résultats issus de nos tests après les avoir exposés.
+	}
+
+

@@ -1,0 +1,116 @@
+\documentclass{ifri}
+
+\setlength{\glsdescwidth}{0.65\textwidth}
+% \usepackage{lscape}
+
+\typeMemoire{Diplôme de Licence en Informatique}
+\optionFormation{Sécurité Informatique}
+\etudiant{Jospy \textbf{GOUDALO}}
+\titreDuMemoire{Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.}
+
+\dateSoutenance{-}
+%\promo{2\up{ème}}
+\anneeScolaire{2017-2018}
+
+%%maitre de mémoire
+\encadrants{\textbf{Professeur Eugène C. EZIN}\\Maître de Conférences en Informatique\\Université d'Abomey-Calavi}
+
+\hypersetup{
+ pdftitle={Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.},
+ pdfauthor={Jospy GOUDALO, jospygoudalo@gmail.com},
+ pdfsubject={Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.},
+ pdfkeywords={système, paiement, factures, electriques, SBEE} 
+ }
+
+\color{bookColor}
+
+%importation du glossaire
+\loadglsentries{glossaire/glossaire_reduit}
+
+\begin{document}
+
+\pageDeGarde
+%\pageTitre
+
+\pagecolor{white}
+
+%% page vide
+%\thispagestyle{empty}\ \clearpage
+
+\selectlanguage{french}
+
+% sommaire
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+
+%liste des figures
+\listoffigures 
+
+%liste des tableaux
+\listoftables
+
+%liste des algo
+\selectlanguage{french}
+%\listofalgorithms
+
+% Les sigles et acronymes
+\setglossarystyle{super}
+\printglossary[title=Sigles et Abréviations, toctitle=Sigles et Abréviations, type=\acronymtype]
+
+% Le glossaire proprement dit
+\setglossarystyle{altlist}
+\printglossary[type=main]
+
+%% rdedicaces
+\include{dedicace/dedicace}
+
+%% remerciements
+\include{remerciements/remerciements}
+
+%\newpage 
+
+% Résume
+\include{resume/resume}
+
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%%introduction
+\include{introduction/introduction}
+%\lhead[]{} \rhead[]{} \chead[]{}
+\selectlanguage{french}
+\fancyhead[L]{\tiny \leftmark}
+\fancyhead[R]{\scriptsize \rightmark}
+\fancyfoot[C]{\thepage}
+
+\chapter{Revue de littérature}\label{chap:1}
+  \input{corps/revue_litterature}
+  \section{Généralités sur les intrusions informatiques}
+  \input{corps/generalite_intrusion}
+ 
+\chapter{Conception et Matériels}\label{chap:2}
+  \input{corps/conception_materiels}
+  \section{Conception}
+    \input{corps/conception}
+  \section{Matériels}
+    \input{corps/materiels}
+ 
+\chapter{Résultats et Discussion}\label{chap:3}
+  \input{corps/resultat_discussion}
+ 	
+% \include{perspectives}
+%%conclusion
+\include{conclusion/conclusion}
+% 
+\lhead[]{} \rhead[]{} \chead[]{}
+
+%%biblio
+\addcontentsline{toc}{chapter}{Bibliographie}
+\bibliographystyle{abbrv}
+\bibliography{biblio/biblio}
+
+
+%\include{annexe}
+\end{document}          

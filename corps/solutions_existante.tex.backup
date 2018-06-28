@@ -1,0 +1,62 @@
+\subsection{Google Maps}
+      \paragraph{}
+	Google Maps est un service gratuit de cartographie en ligne. Le service a été créé par Google. 
+	Lancé en 2004 aux États-Unis et au Canada et en 2005 en Grande-Bretagne (sous le nom de Google Local),
+	Google Maps a été lancé jeudi 27 avril 2006, simultanément en France, Allemagne, Espagne et Italie.
+      \paragraph{}
+	Ce service permet, à partir de l'échelle d'un pays, de zoomer jusqu'à l'échelle d'une rue. Des prises 
+	de vue fixes montrant les détails de certaines rues sont également accessibles grâce à une passerelle 
+	vers Google Street View \footnote{ service lancé en mai 2007 afin de compléter Google Maps et Google Earth: 
+	Il permet de visualiser un panorama à 360° d'un lieu situé sur une voie urbaine ou rurale.}.Aussi il permet 
+	de calculer des itinéraires,et de se renseigner sur les commerces 
+	présents près de la position de l'utilisateur. 
+      \paragraph{}
+	Deux types de vue sont disponibles dans Google Maps : une vue en plan classique, avec nom des rues, 
+	quartier, villes et une vue en image satellite, qui couvre aujourd'hui le monde entier.
+      \paragraph{}
+	Il existe également plusieurs versions mobiles de Google Maps, qui utilisent les réseaux des téléphones 
+	notamment 3G pour charger les cartes de la même manière que sur la version internet. Les versions varient 
+	beaucoup selon la définition d'écran des téléphones portables, le fait d'avoir un écran tactile ou encore
+	la puissance du processeur.
+	
+	  \begin{figure}[H]
+	   \begin{center}
+	    \includegraphics[scale=0.5]{images/carte_monde_ggm.png}
+	    \caption{Carte du monde sous Google Maps}
+	    \label{Carte du monde sous Google Maps}
+	   \end{center}
+	  \end{figure}
+
+\subsection{OpenStreetMap}
+      \paragraph{}
+	OpenStreetMap (OSM) est un projet qui a pour but de constituer une base de données géographiques libre du 
+	monde (permettant par exemple de créer des cartes sous licence libre), en utilisant le système GPS et d'autres 
+	données libres. Il a été initié en juillet 2004 par Steve Coast au University College de Londres.Par l'utilisation de 
+	moyens informatiques basés sur Internet qui permettent l'intervention et la collaboration de tout utilisateur 
+	volontaire.\\
+	
+      \paragraph{}
+	Ce projet s'appuie donc sur les connaissances des collaborateurs, cela permettant notamment une mise à jour plus rapide 
+	des données.OpenStreetMap peut être considéré comme le wikipédia de la cartographie libre.\\
+	Il propose quasiment les mêmes services que Google Maps.Il faut aussi noter que les données d'OpenStreetMap
+	sont gratuites pour les utilisations commerciales ce qui n'est pas le cas de Google Maps.
+	
+      \paragraph{}
+	Concernant le domaine du mobile il n'existe pas une application mobile nommé OpenStreetMap tel que celui de Google Maps mais
+	 il existe plusieurs applications mobiles de cartographie qui utilisent les données d'OpenStreetMap tels que Osmand,OruxMaps
+	 et bien d'autres.
+
+      	  \begin{figure}[H]
+	   \begin{center}
+	    \includegraphics[scale=0.5]{images/carte_monde_osm.png}
+	    \caption{Carte du monde sous OpenStreetMap}
+	    \label{Carte du monde sous OpenStreetMap}
+	   \end{center}
+	  \end{figure}
+	  
+	  
+\paragraph{Conclusion partielle\\ \\}
+	  Les systèmes de géolocalisation constituent un outil d'aide très important pour faciliter et autonomiser les déplacements.
+	  Dans ce chapitres nous avons présenté leur fonctionnement et quelques solutions existantes.Néanmoins ces solutions ne permettent
+	  pas de resoudre le cas des déplacements à l'UAC car aucune d'elle ne présente sa strcuture.Dans le chapitre suivant
+	  nous aborderons notre solution à travers son analyse et sa conception.

@@ -1,0 +1,313 @@
+\paragraph{}
+	    \begin{quotation}
+		\emph{<<La géolocalisation est la technique de détermination  de la situation géographique précise  d'un lieu ou,à un
+		instant donné,d'une personne,d'un véhicule,d'un objet, etc>>}(Larousse 2009).
+	    \end{quotation}
+\paragraph{}
+	    La géolocalisation est donc un procédé permettant de positionner à un instant donnée un objet (une personne, etc) sur 
+	    un plan ou une carte à l'aide de ses coordonnées géographiques obtenues en utilisant une technique de localisation.
+	    
+	    
+	    \subsection{Quelques définitions}
+		\subsubsection{Notion de SIG}
+		    \paragraph{}
+			Le système d'information géographique est un système informatique utilisé dans le but
+			de localiser géographiquement un ensemble de données. Le SIG contient un ensemble de
+			matériels, logiciels et processus spécifiques à l'information géographique. Il permet la
+			collecte, la gestion, et l'affichage des données.\\
+			
+		    Dans un SIG, deux types de données sont manipulés : les données attributaires (ou descriptives) et les données 
+		  géographiques. Les données descriptives sont des données alphanumériques (quantitatives ou qualitatives) 
+		  associées à un objet ou une localisation géographique, soit pour décrire un objet géographique, soit pour 
+		  localiser des informations : nom d'un hôtel, nombre d'étoile, nombre de chambre, nom du propriétaire. 
+		  
+		  Les données géographiques sont les objets qu'on peut localiser à partir de leurs coordonnées géographiques. 
+		  Nous avons deux modes de représentation de ces objets géographiques : le mode raster et le mode vecteur.
+		  
+	      \subsubsection{Notion de cartographie}
+		  \paragraph{}
+		      \begin{quotation}La cartographie est la discipline qui regroupe « l'ensemble des études et des opérations scientifiques, artistiques et 
+		    techniques, intervenant à partir des résultats d'observations directes ou de l'exploitation d'une documentation, en vue 
+		    de l'élaboration et de l'établissement de cartes, plans et autres modes d'expression, ainsi que dans leur utilisation »
+		     (Comité français de cartographie, 1990).\end{quotation}
+		     
+	      \subsubsection{Le Global Positioning System (GPS)}
+		  \paragraph{}
+		     Le GPS est un système spatial de navigation par satellite qui fournit des informations de position et de
+		  temps à tous moment, n'importe où à proximité de la Terre, où il ya une ligne de vue
+		  dégagée à quatre ou plus des satellites GPS. \\ 
+		  Développé par le DoD (Department of Defense) des États-Unis, pendant la guerre froide, il est complètement opérationnel depuis 1995.
+	    \subsection{Les applications basées sur la localisation}
+		    \paragraph{}
+		      Il y'a encore quelques années,l'utilisation de la géolocalisation était réservée aux professionnels et aux spécialistes.
+		      De nos jours de nombreuses applications y font appel,y compris pour les particuliers.
+		      
+		    \subsubsection{Les applications professionnelles}
+			  \paragraph{}
+			  Les professionnelles de la logistique et du transport utilisent particulièrement les systèmes de localisation. 
+			  Cela leur permet d'une manière générale d'avoir une information en temps réel sur les horaires, sur 
+			  les problèmes de transports. La sécurité est améliorée et les trajets peuvent être optimisés pour 
+			  gagner du temps et du carburant.
+			  \paragraph{}
+			  On retrouve donc ces applications dans les transports en commun, les transports
+			  routiers, aériens, et maritimes (on parle d'une manière générale de système de transport intelligent).
+			  \paragraph{}
+			  On trouve également la localisation dans des domaines aussi divers que l'humanitaire,
+			  l'environnement et l'agriculture, par exemple :
+			  \begin{itemize}
+			   \item pour l'étude d'une population animale
+			   \item pour la cartographie des sols et des rendements
+			   \item pour surveiller l'activité sismique d'une région
+			   \item pour localiser les sites de catastrophes naturelles
+			   \item pour l'aide humanitaire et les opérations de sauvetage en montagne ou en mer
+			  \end{itemize}
+
+		    
+		    \subsubsection{Les applications destinées aux particuliers}
+			  \paragraph{}
+			  Le marché des particuliers s'est développé plus tardivement. Il est aujourd'hui très
+			  dynamique. De nombreuses applications ont fait leur apparition depuis le milieu des
+			  années 2000 et beaucoup restent à venir.
+			  
+			  \paragraph{}
+			  De nombreux sports et loisirs utilisent les systèmes de GPS (randonnée, vélo, course à pied, ...) 
+			  qui permettent d'avoir des informations précises sur les lieux, les vitesses et les obstacles pour mieux se repérer.
+			  On peut également localiser des personnes : Randonneurs, sportifs de l’extrême,
+			  surveiller des enfants, bracelets électroniques. On trouve encore des équipements de
+			  localisation dans les systèmes de sécurité et dans la domotique (alarmes, détecteurs de mouvements).
+			  
+		     \subsubsection{Les services basés sur la localisation}
+			  \paragraph{}
+			  Un nouveau terme est apparu dans les années 2000 : le service basé sur la localisation (LBS : Location-based Service).
+			  Ces applications proposent des services en fonction de notre position présente.Les LBS se trouvent au centre de trois
+			  technologies : Les technologies de l'information (plus particulièrement mobiles),le monde Internet et les systèmes
+			  d'information géographiques.\\
+			  Les jeux basés sur les déplacements réels tels que Pacmanhattan,des réseaux géosociaux comme Foursquare ou Gowalla
+			  sont des exemples de services basés sur la localisation.
+		    
+	    \subsection{Les reticences concernant la localisation}
+		      \subsubsection{Menaces sur le respect de la vie privée}
+			\paragraph{}
+			  Même si l'avancée technique que représente la géolocalisation est 
+			  indéniable, des inquiétudes se font sentir quant au respect de la vie privée.\\
+			  En France la commission nationale informatique et libertés (CNIL) s'inquiète du respect de la vie privée.
+			  Elle a publié de nombreux rapports concernant la géolocalisation.
+			  Ce sujet a fait l'objet d'un livre d'Alex Turk \footnote{La vie privée en péril, Alex Türk, Éditions Odile Jacob} ,
+			  président de la CNIL, qui nous alarme sur l'invasion des puces dans notre quotidien.\\
+			  
+			  Du fait de la taille millimétrique des puces RFID, "l'étiquette intelligente" fait l'objet de nombreuses inquiétudes.
+			  En effet elles peuvent s'introduire sur tout type d'objets à l'insu des personnes qui les utilisent.
+			  A ce sujet, une expérience de l'exposition "Ni Vu Ni Connu" en 2006 à Lyon a permis de démontrer les dangers 
+			  des puces RFID \footnote{\url{http://www.erasme.org/Ni-Vu-Ni-Connu-Experimentation}}. \\%consulter le 12/06/2015 13:35
+			  Un lecteur RFID placé à un endroit stratégique peut être en mesure de lire des
+			  informations à l'insu des passants. Une personne portant sur elle un objet contenant une
+			  puce communicante (passeport, téléphone, objet acheté précédemment, ...) peut
+			  potentiellement envoyer des informations sans en être informée.\\
+			\paragraph{}
+			Concernant la localisation par GPS, les inquiétudes d'un "Big Brother"\footnote{Expression utilisée pour qualifier toutes les institutions ou pratiques portant atteinte aux libertés fondamentales et à la vie privée des populations ou des individus} enregistrant les
+			emplacements successifs des usagers se sont avérées justifiées : Les utilisateurs des trois
+			grands systèmes d'exploitation pour téléphones sont concernés ; Des fichiers mouchards
+			ont été découverts indépendamment dans les IPhone, Android et Windows Phone 7.\\
+			Enfin un projet de surveillance de grande envergure est né aux États-Unis. Le ministère
+			des transports (USDOT) met en place un réseau de capteurs pour surveiller le trafic
+			routier, utilisant GPS, Wi-Fi, et téléphonie mobile \footnote{\url{http://clclt.com/gyrobase/Content?oid=oid\%3A5507}}. %consulter le 12/06/2015 13:52
+			
+		\subsubsection{Inquiétudes en terme de sécurité}
+			\paragraph{}
+			Les techniques et les applications de localisation sont pour la plupart nouvelles.
+			Vu l'attrait technologique et économique, beaucoup d'entreprises se sont lancées 
+			dans ces technologies mais ne semblent pas en avoir réellement apprécié l'aspect 
+			sécuritaire à sa juste valeur.
+			
+			\paragraph{}
+			Le cas des étiquettes RFID en est le meilleur exemple : Elles sont déployées et utilisées
+			dans un très grand nombre de domaines alors que leur faiblesse est très régulièrement
+			démontrée.
+	   
+			\paragraph{}
+			En téléphonie mobile, il a été démontré des failles de sécurité dans les protocoles de
+			chiffrement entre les téléphones et les antennes relais. Les opérateurs téléphoniques
+			sont très peu réactifs face aux problèmes de sécurité réseau. Cela peut avoir des
+			conséquences à long terme sur la sécurité des téléphones mobiles.
+			
+			
+	   \subsection{Les differentes techniques de localisation}
+		\paragraph{}
+		      Les techniques de localisation permettant de determiner les coordonnées d'un point(objet,personne...),
+		      qui serviront à la géolocalisation de ce dernier c'est à dire son positionnement sur un plan ou une carte.
+		      
+		\subsubsection{La triangulation de satellites}\label{triangulation}
+			\paragraph{}
+				  Dans le système de localisation par satellite, le terminal reçoit une onde 
+				  électromagnétique d'un premier satellite.La vitesse de cette onde est de 299792 km/s 
+				  (célérité en espace vide),le terminal peut en déduire la distance qui le sépare du satellite.\\
+				  A la réception du signal d'un deuxième satellite, on peut savoir que le terminal se trouve
+				  à l'intersection de deux cercles.\\
+				  Avec un troisième satellite, on sait que le terminal se trouve à l'intersection des trois 
+				  cercles ce qui permet d'en déduire deux points possibles. Considérant que le terminal se
+				  trouve à la surface de la Terre, un seul point est considéré comme correct.\\
+				  Ce principe de triangulation est à corriger pour deux raisons :
+				      \begin{itemize}
+				       \item Le terminal n'est pas à l'heure atomique (donc il y a décalage avec le satellite)
+				       \item Les ondes peuvent arriver décalées (selon les conditions de propagation)
+				      \end{itemize}
+
+				  Pour un ordre d'idée en GPS :
+					\begin{itemize}
+					 \item 1 μs de retard correspond à 300 m de décalage
+					 \item un retard inférieur à 1ns correspond à une précision de l’ordre du mètre
+					\end{itemize}
+				  En effet même si le point est mathématiquement connu avec trois satellites
+				  il en faut au moins quatre pour corriger les erreurs de décalages temporels. Il s'agit de
+				  résoudre un système de quatre équations à quatre inconnues (la position dans les trois
+				  dimensions et le décalage de l'horloge).Ainsi plus il y' a de satellite permettant de
+				  synchroniser,plus la position peut être précise.En pratique un récepteur peut utiliser
+				  quatre à douze satellites pour synchroniser.
+				   \begin{figure}[H]
+					\begin{center}
+					    \includegraphics[scale=0.30]{images/triangulation_satellite.png}\\
+					\end{center}
+					\caption{Triangulation de satellites}
+					\label{Triangulation de satellites}
+				    \end{figure}
+				    
+			\paragraph{}
+				  Le GPS differentiel (DGPS) est utilisé en complément par des systèmes tels que 
+				  EGNOS \footnote{European Geostationary Navigation Overlay Service} 
+				  pour corriger les problèmes de décalages d'horloges.\\
+				  Des équipements intermédiaires fixes (stations fixes, balises au sol) connaissent la
+				  position réelle des satellites.Elles calculent alors les décalages temporels des satellites
+				  pour donner une information plus précise aux terminaux.
+				 Ces GPS améliorés sont très précieux dans le monde professionnel (armée, sauvetage en mer, 
+				 topographie, ...).
+				 
+				  \begin{figure}[H]
+					\begin{center}
+					    \includegraphics[scale=0.5]{images/dgps.png}\\
+					\end{center}
+					\caption{Utilisation du DGPS}
+					\label{Utilisation du DGPS}
+				    \end{figure}
+				    
+		\subsubsection{Les techniques de localisation utilisées par les réseaux sans fil}\label{resaux_sans_fil}
+			  Parmis plusieurs techniques de localisation utilisées par les réseaux nous pouvons citer:
+			    \begin{itemize}
+			     \item \textbf{Identifiant de cellule (Cell ID)}\label{cell_id}
+				\paragraph{}
+			     Le système de localisation le plus simple (et aussi le moins précis)
+				  consiste à déterminer par quelle cellule est transmis le signal sans fil.
+				  La cellule correspond à l'antenne relais. Ce système est peu efficace
+				  car les cellules (selon les technologies utilisées) peuvent être distantes
+				  de plusieurs centaines de mètres à plusieurs kilomètres. On obtient
+				  donc une localisation dans un rayon de quelques dizaines mètres (au
+				  mieux), à quelques kilomètres (en zone rurale).
+				  
+			    \item \textbf{Angle d'arrivée (AoA)}\label{aoa}
+				  \paragraph{}
+				  Cette technique est dérivée de celle utilisée par les radars
+				  aériens. La localisation peut être très précise mais nécessite
+				  des bornes motorisées pour calculer les angles. A partir de
+				  deux cellules, au moins, on peut calculer l'angle d'émission du
+				  signal et en déduire la position du terminal par triangulation
+				  
+			    \item \textbf{Différentiel d'arrivée (TDoA)}\label{tdoa}
+				  \paragraph{}
+				    Pour obtenir une localisation plus précise et sachant que le
+				    terminal n'est pas à l'heure exacte, les différentes antennes
+				    peuvent calculer la différence de temps d'arrivée :
+				    Le terminal envoie un signal, les antennes reçoivent ce signal
+				    avec un certain décalage. En fonction de ce décalage de
+				    temps, elles en déduisent l'emplacement du terminal. Cela
+				    nécessite une synchronisation extrêmement précise des horloges des antennes.
+				    
+			      \item \textbf{Puissance de signal reçu (RSS)}\label{rss}
+				\paragraph{}
+				    RSS (Received Signal Strength) est la méthode la plus utilisée
+				    en Wi-Fi. La localisation est déterminée par la puissance de
+				    signal reçu par le terminal. En intérieur, il faut arriver à
+				    prendre en compte les perturbations liées aux obstacles(murs, cloisons, vitres, 
+				    équipements électromagnétiques). En extérieur les perturbations sont moindres et le calcul de
+				    l'atténuation est simplifié.
+			    \end{itemize}
+
+	      \subsection{Les differentes types de géolocalisation}
+	      
+		  \subsubsection{La Géolocalisation par géocodeur}
+			\paragraph{}
+			Le géocodage permet d’affecter des coordonnées géographiques (la longitude et la latitude) à une adresse.
+			Ces données géographiques vont permettre de positionner chaque adresse sur une carte numérique. 
+			Ce principe de géocodage est automatisé à l’aide d’un géocodeur qui peut être sous forme de logiciel ou 
+			de service en ligne.
+			L’intérêt de cette technique est de pouvoir traiter géographiquement l’ensemble des informations de sa 
+			base de données. Ainsi, on peut regrouper plus facilement l’entièreté de ses informations clients, 
+			prospects et concurrents sur une même carte. Certains logiciels peuvent même décoder l’ensemble 
+			de vos données et les restituer sur une carte en appliquant des marqueurs visuels, 
+			comme une couleur par exemple, pour différencier chaque catégorie (clients, prospects, partenaires,…).
+			Vous pouvez, dès lors, avoir une visibilité optimale de votre implantation.\\
+			Cependant, la technique de géocodage a comme inconvénient son manque de précision. 
+			    
+		  \subsubsection{La Géolocalisation par satellite}
+			\paragraph{}
+				La géolocalisation par satellite consiste à déterminer la position d'un terminal équipé d'une puce compatible 
+				en utilisant la triangulation de satellites abordée au \ref{triangulation} à la page \pageref{triangulation}.
+				Cette position est alors traduite en termes de latitude, longitude et parfois altitude et peut alors être 
+				représentée physiquement sur une carte. Le réseau satellite de positionnement le plus utiliser aujourd'hui est
+				le GPS,au quel s'ajoute d'autres tels que Galileo \footnote {système de positionnement par satellites similaire
+				au GPS lancé en 2001 par un ensemble d'organismes européens} ou Beidou \footnote{système de 
+				positionnement par satellites lancé par la Chine en 1993}.
+				Dans le cas du GPS, pour que le repérage spatial fonctionne, un immense réseau constitué de 27 satellites 
+				(dont 3 de secours) tournant autour de la Terre (2 tours en 24 heures) à une altitude de 20 200 km et répartis 
+				sur 6 orbites (4 par orbite) différentes est nécessaire.Ces satellites constituent un maillage du ciel et 
+				servent de repères aux navigateurs GPS dans leur processus de calcul de position.\\
+				Pour qu'un terminal soit capable de se géolocaliser grâce au réseau GPS, celui-ci doit être équipé d'une puce 
+				électronique GPS.\\
+				Le GPS offre une précision allant de 15 à 100 mètres pour les applications civiles.
+				
+		  \subsubsection{La géolocalisation par GSM}
+			\paragraph{}
+			Cette technique permet le positionnement d'un terminal GSM en se basant sur certaines informations relatives aux antennes 
+			GSM auxquelles le terminal est connecté.\\
+			Pour localiser un abonné, les opérateurs téléphoniques peuvent utiliser les techniques CellID,AOA ou DToA vu au \ref{resaux_sans_fil} à la page \pageref{resaux_sans_fil}.\\
+			La technique du différentiel de temps d'arrivée (DToA) est la plus précise:
+			Le terminal émet un message indiquant l'heure (non synchronisée) vers les antennes à proximité. Les antennes ont 
+			des horloges extrêmement synchronisées pour calculer à quelle heure elles ont reçu le signal du terminal et en 
+			déduire son positionnement.
+		  \subsubsection{La géolocalisation par WIFI}
+			\paragraph{}
+			    Les points d'accès Wi-Fi sont capables d'utiliser les systèmes de localisation présentés au \ref{resaux_sans_fil}: 
+			    CellID, DToA, RSS sont les trois techniques utilisées.
+			    Un terminal WIFI peut utiliser la technique CellID en se basant sur les identifiants des bornes Wi-Fi (adresses MAC) 
+			    qu'il détecte.Il existe des bases de données recensant une multitude de bornes d'accès Wi-Fi ainsi que leur position 
+			    géographique.Ces bases peuvent appartenir à des entreprises privées ou à des communautés qui les publient gratuitement.
+			    Ces bases de données sont construites en utilisant la méthode appelée War Driving,
+			    qui consiste à parcourir les rues des villes en voiture avec un ordinateur portable équipé 
+			    du Wi-Fi et relié à un récepteur GPS, afin de recenser un maximum de points d'accès Wi-Fi.
+		  \subsubsection{La géolocalisation par RFID}
+			\paragraph{}
+			      La technologie RFID peut être utilisée pour la géolocalisation en intérieur. Pour ce faire, 
+			      une série de lecteurs RFID équipés de différents types d'antennes sont positionnés de façon à couvrir 
+			      l'ensemble de la zone souhaitée. La zone est alors découpée en cases dont la surface varie en fonction 
+			      du nombre de lecteurs déployés et de leur puissance. Lorsqu'une personne équipée d'un tag RFID actif 
+			      sera dans ces zones là, le système sera capable de calculer sa position en se basant sur le nombre de 
+			      lecteurs qui détectent le tag et de déduire la position approximative de l'individu en se référant au 
+			      schéma de découpage établi. En temps réel, cette technique reste néanmoins très approximative et sa 
+			      précision permettra uniquement de déterminer la pièce ou le couloir dans lequel se trouve la personne 
+			      géolocalisée.
+		  
+		  \subsubsection{La géolocalisation par IP}
+			\paragraph{}
+			      Cette méthode permet de déterminer la position géographique d'un ordinateur ou de n'importe quel terminal connecté 
+			      à internet en se basant sur son adresse IP.Les adresses IP sont gérées par l'IANA, une organisation qui s'occupe de
+			      découper les blocs d'adresses IP disponibles et de les distribuer de façon très contrôlée aux pays qui en demandent.
+			      Toutes ces attributions étant très bien documentées, il est possible de savoir dans quel pays se trouve un terminal 
+			      connecté à internet grâce à son adresse IP.On peut même obtenir un niveau de précision de l'ordre de la ville en se 
+			      basant sur la distribution des adresses IP faite par les fournisseurs d'accès à internet.
+			      Pour une adresse IP associée à une date et une heure données, les forces de police peuvent obtenir auprès du 
+			      fournisseur d'accès à internet la position géographique exacte, le nom et l'adresse communiquées par le titulaire. 
+			      Mais ces données ne sont conservées qu'un temps limité, dont la durée varie selon les pays.
+			      
+		  
+		  
+		
+		  
+		  
