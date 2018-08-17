@@ -2,6 +2,17 @@
   D’après LE PETIT LAROUSSE ILLUSTRE 2010, l’intrusion est définie comme <<l’action de s’introduire sans y être invité dans un lieu, une société, un groupe, un système informatique. C’est aussi l’action d’intervenir dans un domaine où l’on n'a aucun titre à le faire>>. Cette définition de l’intrusion s’applique aussi en informatique \footnote{ Le petit Larousse Illustré 2010.} \cite{b}. En effet, l’intrusion en informatique est définie comme étant toute utilisation d’un système informatique à des fins autres que celles prévues, généralement après acquisition de privilèges de façon illégitime.
 \paragraph{}
   L'arrivée d'Internet a apporté une grande révolution dans le monde mais aussi a entraîné une kyrielle de problèmes dans le domaine de la protection de la vie privée.  Ainsi des personnes appelées hackers arrivent à prendre possesion de tout un système d'information et à le paralyser.
+  
+  \begin{itemize}
+    \item Gestion Clientele Electricit\'e et/ou Eau
+    \item Comptabilit\'e G\'en\'erale, Analytique, Budg\'etaire
+    \item Paie et G
+    estion des Ressources Humaines
+    \item Gestion des stocks
+    \item Gestion des Approvisionnements
+    \item Immobilisations
+    \item Mon\'etique
+  \end{itemize}
 
   
 \subsection{Notion de hacker et de cracker}

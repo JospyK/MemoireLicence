@@ -1,88 +1,29 @@
+\subsection{Méthode de modélisation}
+      \paragraph{}
+      Afin de modéliser les fonctionnalités de notre solution, nous avons choisi le langage UML \textit{Unified Modeling Language} \cite{I}. Issu d’un large consensus, le langage UML garantit la stabilité et la performance d’un projet grâce à son caractère formel et industrialisé. Aussi facilite-t-il la compréhension du système par l’usage de représentations graphiques appelées diagrammes. Ces diagrammes nous ont permis de modéliser notre solution en utilisant les diagrammes de cas d’utilisation et de séquence.\\ \\
+\subsection{Diagramme de cas d'utilisation}
+    \paragraph{}
+	  Le diagramme de cas d'utilisation représente la structure des grandes fonctionnalités nécessaires aux
+    utilisateurs du système. C'est le premier diagramme du modèle UML, celui où s'assure la relation entre l'utilisateur et les objets que le système met en œuvre. 
 
-  \subsection{Principe de fonctionnement de notre solution}
-      \paragraph{}
-	  Pour atteindre l'objectif que nous nous sommes fixer la solution proposée a été 
-	  divisée en deux étapes.La prémière consistera à mettre le plan de l'UAC sur la plateforme en
-	  ligne d' OpenStreetMap,ce qui permettra par la suite de pouvoir la consultée grâce à une application mobile 
-	  dont le développement sera la deuxième étape.
-	  
-      \paragraph{}
-	   Les usagers et les visiteurs de l'UAC qui sont en possession d'un téléphone Android pourront 
-	   avoir accès à la carte et ainsi calculer des itinéraires grâce à l'application mobile que nous développerons.A l'aide de la puce GPS du téléphone
-	   on pourra afficher la position de l'utilisateur et suivre celui-ci par rapport à ses déplacements.
-  
-  \subsection{Langage de développement et outils}
-  
-      \paragraph{}
-	  Notre solution devant fonctionner sous la plateforme Android nous avons utilisez les langages JAVA et XML.En ce qui 
-	  concerne l'environnement de développement nous avons choisi Android Studio dans sa version 1.3 .
-	  
-	\begin{table}[H]
-	   \begin{center}
-	      \caption{Synthèse des outils utilisés}
-	      \label{Synthèse des outils utilisés}
-		\begin{tabular}{|>{\centering\arraybackslash} p{7cm} |>{\centering\arraybackslash} p{7cm}|}
-		 \hline
-		\begin{bf}OUTILS\end{bf} & \begin{bf}VERSION \end{bf}\\
-		\hline
-		\multicolumn{2}{|c|}{\begin{bf}Système d'exploitation\end{bf}}\\
-		\hline
-		\multicolumn{1}{|l|}{Linux} & \multicolumn{1}{|l|}{Ubuntu 14.04 LTS (Trusty)}\\
-		\hline
-		\multicolumn{2}{|c|}{\begin{bf}Langage\end{bf}}\\
-		\hline
-		\multicolumn{1}{|l|}{JAVA} & \multicolumn{1}{|l|}{8.0}\\
-		\hline
-		\multicolumn{1}{|l|}{XML} & \multicolumn{1}{|l|}{1.0}\\
-		\hline
-		\multicolumn{1}{|l|}{UML} & \multicolumn{1}{|l|}{2.0}\\
-		\hline
-		\multicolumn{1}{|l|}{SDK} & \multicolumn{1}{|l|}{5.0}\\
-		\hline
-		\multicolumn{2}{|c|}{\begin{bf}Autres logiciels\end{bf}}\\
-		\hline
-		\multicolumn{1}{|l|}{Android Studio} & \multicolumn{1}{|l|}{1.3}\\
-		\hline
-		\multicolumn{1}{|l|}{JOSM} & \multicolumn{1}{|l|}{8339}\\
-		\hline
-		\multicolumn{1}{|l|}{Dia} & \multicolumn{1}{|l|}{ 0.97.2}\\
-		\hline
-		\end{tabular}
-	   \end{center}
-	  \end{table}
-
-      \subsection{A propos d'Android}
-	\paragraph{}
-	  Android est un OS mobile Open Source.Conçu initialement par Android Inc il a été racheté par Google en 2005.
-	  Programmer sous Android nécessite l'installation du SDK Android(Softwre Developement Kit).\\
-	  Une application android est composé d'elements de bases tels que: 
-	  \begin{itemize}
-	   \item Activity(activité en français):composante principale d'une application android(une application est en fait une pile d'activities ou chaque vue est une activity)
-	   \item Services : Permet l'exécution d'un algoritheme sur un temps indéfini.Seul l'aboutissement de sa tâche ou l'arrêt de son exécution peut y mettre fin.
-	   \item Broadcast and Intent Receivers: permettent la communication entre composants
-	   \item Content providers:permet le partage de contenu entre application
-	  \end{itemize}
-	    Ici nous présentons le cycle de vie d'une application Android:
-		  
 	  \begin{figure}[H]
-	   \begin{center}
-		    \includegraphics[scale=0.4]{images/cycle_activity.png}
+		     \begin{center}
+			\includegraphics[scale=0.5]{images/uc.png}
 		     \end{center}
-		     \caption{Cycle de vie d'une application Android}
-		     \label{Cycle de vie d'une application Android}
+		     \caption{Diagramme de cas d'utilisation}
+		     \label{Diagramme de cas d'utilisation}
 	  \end{figure}
 	  
-	  \begin{itemize}
-	   \item onCreate : méthode appelée à la création de l'activité,elle permet d'initialiser l'activité et les données nécessaire à celle-ci.
-	   \item onStart : méthode appelée lorsqu'une activité en arrière plan repasse en avant plan.
-	   \item onResume: méthode appelée après onStart(au moment ou l'application repasse en avant plan).
-	   \item onPause : méthode appelée lorsqu'une autre activité passe en avant plan.
-	   \item onStop : méthode appelée lorsque l'activité n'est plus visible.
-	   \item onDestroy :méthode appelée quand l'application est totalement fermée(processus terminé)
-	  \end{itemize}
- 
-  
-\paragraph{Conclusion partielle\\}
-	  Dans ce chapitre nous avons présenté les choix techniques opérés
-	  ainsi que notre solution à travers sa modélisation, son principe de fonctionnement et les outils utilisés. 
-	  Le chapitre suivant exposera les différents résultats et quelques critiques.
+	  Pour une premiere utilisation, il est necessaire de cr\'eer un compte. Les informations \`a fournir sont: un nom, un email, un numero de telephone et le mot de passe pour la protection du compte. Toutes ces informations \'etant obligatoires. Un mail d'activation est envoy\'e et l'utilisateur apr\`es activation de son compte peut se connecter \`a l'application. Une authentification est necessaire afin d'avoir acc\`es aux cas d'utilisations de notre diagramme (ou aux fonctionnalités de l'application).
+	  
+\subsection{Diagramme de séquence}
+ \paragraph{}
+	  Le diagramme de séquence représente la succession chronologique des opérations réalisées par un acteur. Ce mode de représentation effectue la description du fonctionnement dynamique du système. En d'autres termes, il indique les objets que l'acteur va manipuler et les opérations qui font passer d'un objet à l'autre.
+	  \begin{figure}[H]
+		     \begin{center}
+			\includegraphics[scale=0.6]{images/sd.png}
+		     \end{center}
+		     \caption{Diagramme de séquence}
+		     \label{Diagramme de cas d'utilisation}
+	  \end{figure}
+	  Après que l'utilisateur ait entré ses informations, identifiants pour être administrateur de son système, il peut parallèlement activer la protection webcam, lancer la detection d'intrusion ou prévenir les dénis de service.

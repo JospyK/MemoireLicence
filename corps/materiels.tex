@@ -1,95 +1,75 @@
   \subsection{Principe de fonctionnement de notre solution}
       \paragraph{}
-	  Nos objectifs pour ce travail sont, dans un premier temps, d'arriver à détecter l'espionnage par webcam et dans un second temps de proposer des options à activer pour protéger l'ordinateur hôte de quelques intrusions qui pourraient survenir. La présentation des principes de fonctionnement se fera en deux étapes: le principe de détection d'attaques par webcam et le principe de protection contre les intrusions.
 	  
-	  \subsubsection{La webcam}
+% 	  \subsubsection{Clients}
+% 	  \paragraph{}	  
+% 	  \subsubsection{Vendeurs}
+% 	  \paragraph{}	  
+% 	  \subsubsection{Administrateurs}
 	  \paragraph{}
-	  	Pour détecter l'utlisation illicite d'une ressource, il revient de monitorer en temps réel les flux provenant de cette ressource et générés par des processus. Ainsi, notre solution permet de surveiller les flux de la webcam à intervalles de temps réguliers de trois secondes pour ne pas utiliser, de façon incontrolée, les ressources de l'ordinateur. \\ 
-	  	A la découverte d'un processus utilisant la webcam, une alerte est envoyée à l'utilisateur qui choisit si oui ou non il est à la base de l'activité d'un tel processus. Si sa réponse est négative, alors il est victime d'un espionnage et, à ce moment un filtre est fait pour connaitre l'identifiant du processus qui est immédiatement tué. En cas de réponse positive de l'utilisateur (oui c'est bien moi), alors le processus en cours est laissé et la detection de processus utilisant la webcam est désactivée pendant cinq minutes. L'algorithme 1 présente le processus de détection d'espionnage par webcam.
-					
-%\newpage		
-						\begin{algorithm}[H]
-						\caption{Algorithme de détection d'espionnage par webcam}
-\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
+	  	% Les factures d'un m\^eme compteur sont identifi\'ees gr\^ace au num\'ero de police.
+	  	Les factures d'un utilisateur sont identifi\'ees gr\^ace \`a la r\'ef\'erence abonn\'ee fournie \`a l'inscription. Une fois connect\'e \`a l'application, le client dispose de la liste de ses factures. Il peut donc s\'electionner le ou les factures qu'il d\'esire solder et proc\'eder au paiement. Le progiciel G'd'Or g\'en\`ere tous les jours \`a une heure pr\'ecise un fichier contenant les factures impay\'ees de tous les compteurs de la SBEE. Ce fichier est reçu par le serveur d'application et ensuite charg\'e dans la  base de donn\'ee. Ainsi nous disposons des impay\'ees au niveau de tous les num\'eros de compteurs. A chaque fin de journ\'ee, \`a une heure pr\'ecise, l'application g\'en\`ere \`a son tour un fichier contenant les factures qui ont \'et\'e pay\'ees dans la journ\'ee et le total encaiss\'e. Nous consid\'erons ce ficher comme un bilan fait par notre application \`a Gd'OR. Ce fichier permet \`a Gd'Or de valider les paiements et d'apurer les comptes en fonction des informations fournies par les prestataires de solution de paiement. Tous les \'echanges de fichiers se feront via un canal s\'ecuris\'e (SFTP et VPN). Apres utilisations, ils sont archiv\'es de façon automatique afin de garder une trace des \'echanges et des flux de donn\'ees. Les erreurs notifi\'ees sont imm\'ediatement signal\'ees aux entit\'es concern\'ees et ils doivent y apporter des solutions le plus t\^ot possible. 
+	  	
+	  	Exemples de fichiers :
+	  	\begin{itemize}
+		  \item Impay\'ees
+		  \item Pay\'es
+		\end{itemize}
 
-\For{\textit{chaqueTroisSecondes}} {
-$etatWebcam \gets enUtilisation()$\;
-  \If{$etatWebcam = ouvert$ } {
-    $action \gets etesVousAuteur()$\;
-     \eIf{$action = non$ } {
-    	\textit{chercherIdProcessus()}\;
-    	\textit{arreterProcessus()}\;
-  }{
-	\textit{cinqMinutesDePause()}\;  
-  }
-  }
-}
-\Return{$action$}\;
-\label{algo:webcam}
-\end{algorithm}  		
-	  	 
-	  	 \subsubsection{Les intrusions }
-      \paragraph{}
-	   Quand un pirate arrive à prendre possession d'une machine dans un réseau, c'est qu'il est arrivé à établir une connexion entre sa machine et la victime. Ainsi, dans la liste des connexions établies (ESTABLISHED), on peut donc lister la connexion permettant au pirate d'interagir avec sa victime à son insu. Notre solution pour ces attaques est de proposer une option à activer et dont le but est d'alerter l'utilisateur dès qu'une connexion est établie. A cet effet, une vérification des connexions ouvertes se fait toutes les trois secondes. Si l'utilisateur ne reconnait pas cette connexion comme étant légale, alors il le signale par un bouton qu'il appuie et à ce moment, l'adresse source ainsi que le port source de connexion sont mis dans une liste noire. L'algorithme 2 présente les étapes de détection d'intrusions.
-	   
-	   
-						\begin{algorithm}[H]
-\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
+	  		  	
+	  	L'architecture de la solution se pr\'esente comme suit :
+		\begin{itemize}
+		  \item les clients
+		  \item internet
+		  \item le systeme de paiement
+		  \item les serveurs
+		  \item les routeurs, parefeu
+		\end{itemize}
 
-\For{\textit{chaqueTroisSecondes}} {
-$list \gets listeConnexionsEtablies()$\;
-	\For{\textit{$connexion$ as $list$}} {
-	\textit{alerterConnexionEtablie()}\;
-	$action \gets autoriser()$\; 
-  \If{$action = non$ } {
-   \textit{blacklistAdresseEtPort()}\;
-  }
-}
-}
-\Return{$action$}\;
-\caption{Algorithme de détection d'intrusions}
-\label{algo:intrusion}
-\end{algorithm}
-
-Lorsque l'attaque est faite au cours des trois secondes, l'application ne le détecte pas. C'est une de ses faiblesses. 	   
-	   \subsubsection{Les whitelist }
-      \paragraph{}
-	   Il y a des connexions importantes que la machine établit en local avec des adresses locales telle que le 127.0.0.1 qui n'est pas une attaque. Cependant, à l'activation de la détection d'intrusion, notre logiciel alerte l'utilisateur d'une connexion établie en local, ce qui pourrait être considéré comme non importante. C'est ainsi que nous avons proposé une whitelist d'adresses IP où l'utilisateur pourra ajouter ou supprimer les adresses dont il ne s'inquiète pas des connexions établies. Il en est de même pour les ports de connexion tels que le 443 et le 80 qui sont des ports de navigation web. L'utilisateur a donc la possiblité d'ajouter ou de supprimer des ports dans la whitelist, ce qui ne déclenchera plus d'alerte à la découverte d'une connexion avec les paramètres entrés en whitelist. Après avoir modifié la base de données de la whitelist, il faut rafraîchir afin de faire considérer à l'application la nouvelle liste à prendre en compte.
-	 	
- 		\subsubsection{Les dénis de service}
-      \paragraph{}
-		Comme nous l'avons présenté au chapitre précédent, un déni de service peut s'effectuer de plusieurs façons. Notre solution, pour cela, propose une option où lorsqu'elle est activée rejette tous les paquets au statut invalide et les paquets avec tous les flags activés (XMAS). Aussi limite-elle le nombre de paquets ICMP à deux (02) par seconde pour eviter les attaques de type Smurf.   
-     
-	\subsubsection{Limiter le nombre de connexion par adresse}
-      \paragraph{}
-     Toujours dans l'optique d'arriver à une fin de déni de service, l'attaquant peut falsifier les adresses IP et envoyer des demandes de connexion, la cible peut se retrouver avec une immensité de connexions ouvertes pour une seule adresse. Pour eviter cela, nous proposons à l'utilisateur d'entrer le nombre de connexions maximales qu'il admet pour une adresse IP vers sa machine en dépendance des services qu'il fournit au réseau auquel il appartient. Une fois cette valeur entrée et validée, une règle est créée pour rejeter toute demande de connexion d'une quelconque adresse après avoir atteint la limite entrée par l'utilisateur. Ce dernier a la possibilité de modifier cette valeur à tout moment.    
-  \subsection{Langage de développement et outils}
+  \subsection{Langages de développements et outils}
   
       \paragraph{}
-	  Notre solution fonctionne sous les systèmes Linux. Cette plate-forme a été choisie en raison de son ouverture, de l'accessibilité au code source et de sa flexibilité. Pour atteindre nos objectifs, nous avons utilisé les langages java, awk et bash; les deux derniers étant des langages de script de Linux. Il est à noter que les versions Debian sont les plus concernées par notre travail. Le tableau suivant fait la synthèse des outils utilisés.
+	  Notre solution est une application web. Elle est donc accessible depuis tous les systèmes d'exploitations du moment qu'un navigateur et d'une connexion internet sont disponibles. Elle a \'et\'e r\'ealis\'e gr\^ace au framework Django.\\
 	  
-	\begin{table}[H]
-	   \begin{center}
-	      \caption{Synthèse des outils utilisés}
-	      \label{Synthèse des outils utilisés}
-		\begin{tabular}{|>{\centering\arraybackslash} p{5cm} |>{\centering\arraybackslash} p{5cm}|>{\centering\arraybackslash} p{5cm}|}
-		 \hline
-		\begin{bf}Langages\end{bf} & \begin{bf} Systèmes d'exploitation\end{bf} & \begin{bf}Autres Outils \end{bf}\\
-		\hline
-		\multicolumn{1}{|l|}{Java } & \multicolumn{1}{|l|} {Ubuntu 16.04 LTS}& \multicolumn{1}{|l|}{Iptables }\\
-		\hline
-		\multicolumn{1}{|l|}{Bash } & \multicolumn{1}{|l|} {Kali Linux 2.0 Rolling}& \multicolumn{1}{|l|}{ }\\
-		\hline
-		\multicolumn{1}{|l|}{Awk} & \multicolumn{1}{|l|}{} & \multicolumn{1}{|l|}{ }\\
-		\hline
-		
-		\end{tabular}
-	   \end{center}
-	  \end{table}
+	  \textbf{Pourquoi utiliser un framework ?}\\
+	  Lorsque l'on réalise un site Internet, on en revient toujours aux même étapes :
+	  \begin{itemize}
+	    \item réalisation et codage du design ;
+	    \item réalisation des modules :
+	    \begin{itemize}
+	      \item réalisation du modèle de données concernant le module,
+	      \item réalisation des formulaires d'ajout, modification et suppression des données :
+	    \end{itemize}
+	    \item réalisation des pages d'affichage du contenu du site ;
+	    \item réalisation d'une administration pour gérer les modules ;
+	    \item réalisation d'un espace utilisateur avec des droits sur l'accès aux données ;
+	    \item mise en place de flux RSS/ATOM ;
+	    \item mise en place d'un plan du site ;
+	  \end{itemize}
+	  \paragraph{}
+	  Tout cela est relativement répétitif, et si, la première fois, ça peut paraître très amusant, on en arrive rapidement à faire des copier/coller, assez mauvaise méthode car source de nombreuses erreurs. Finalement on regroupe des morceaux de code en fonctions réutilisables. À ce moment, on se rapproche de plus en plus de la notion de framework ci-dessus. L'avantage d'utiliser un framework existant et surtout Open Source tel que Django, c'est que nous ne sommes pas les seuls à l'utiliser, et que les bugs sont donc corrigés plus rapidement, les améliorations sont exécutées par plusieurs personnes et de manière bien mieux réfléchie. C'est d'ailleurs tout l'intérêt d'utiliser un framework. En faire moins, pour en faire plus dans le même temps.\\
 	  
-	 Les langages et outils présentés dans le tableau sont ceux utilisés pour le développement de notre application pendant que les systèmes d'exploitations présentés sont ceux utilisés pour le cas pratique.
+	  
+	  \textbf{Pourquoi Django ?}\\
+	  Il existe de nombreux framework web, dans différents langages de programmation. Pourquoi utiliser spécifiquement Django et pas un autre ? Nombreuses sont les raisons qui motivent ce choix : 
+	  \begin{itemize}
+	    \item La simplicité d'apprentissage.
+	    \item La qualité des applications réalisées.
+	    \item La rapidité de développement.
+	    \item La sécurité de l'application.
+	    \item La facilité de maintenance des applications sur la durée.
+	  \end{itemize}
+	  Outres ces avantages on bénéficie de la clarté de Python, qui permet à plusieurs développeurs de travailler sur le même projet. Le style est imposé, donc tout le monde suit les mêmes règles, ce qui facilite les travaux en équipe et la clarté du code.
+	  
+	  \subsubsection{POSTGRESQL}
+	    PostgreSQL est un système de gestion de base de données relationnelle et objet (SGBDRO). C'est un outil libre disponible selon les termes d'une licence de type BSD.
+	    Ce système est concurrent d'autres systèmes de gestion de base de données, qu'ils soient libres (comme MariaDB et Firebird), ou propriétaires (comme Oracle, MySQL, Sybase, DB2, Informix et Microsoft SQL Server). Comme les projets libres Apache et Linux, PostgreSQL n'est pas contrôlé par une seule entreprise, mais est fondé sur une communauté mondiale de développeurs et d'entreprises.
 
-      \subsection{A propos de Debian}
+	  \subsubsection{Ubuntu 16.04 LTS}
+	    Ubuntu 16.04 LTS est la 6ème version LTS du système d'exploitation basé sur Linux, et comme nous en avons discuté ici, elle apporte plusieurs nouvelles fonctionnalités et améliorations. Compte tenu de leur cycle de support, les versions LTS conviennent mieux aux entreprises et aux utilisateurs finaux qui n'aiment pas mettre à jour leur système d'exploitation de temps en temps. Si vous êtes l'un d'entre eux, allez-y et prenez la publication.
+	    
+
+      \subsection{Environnement de Production}
 	\paragraph{}
 	  Debian est un système d'exploitation libre. Il est simple et est constitué de plus de 4000 paquets. Les paquets sont des composants logiciels précompilés conçus pour s'installer facilement sur la machine hôte. L'ouverture de Debian permet à plusieurs programmeurs de pouvoir identifier les failles de sécurité ou de créer plusieurs modules pour faire des tâches qui s'avèrent indispensables. C'est ainsi que la communauté de Debian devient de plus en plus robuste et flexible. Plusieurs systèmes d'exploitation sont dérivés de Debian dont Kali Linux spécialisé dans les tests d'intrusion. 
   
@@ -97,4 +77,4 @@ Lorsque l'attaque est faite au cours des trois secondes, l'application ne le dé
 		\paragraph{}
 	  Dans ce chapitre, nous avons présenté les choix techniques opérés
 	  ainsi que notre solution à travers sa modélisation, son principe de fonctionnement et les outils utilisés. 
-	  Le chapitre suivant exposera les différents résultats et quelques critiques.
+	  Le chapitre suivant exposera les différents résultats et quelques critiques.	

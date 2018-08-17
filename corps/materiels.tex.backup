@@ -1,0 +1,52 @@
+  \subsection{Principe de fonctionnement de notre solution}
+      \paragraph{}
+	  Nos objectifs pour ce travail sont, dans un premier temps, d'arriver à détecter l'espionnage par webcam et dans un second temps de proposer des options à activer pour protéger l'ordinateur hôte de quelques intrusions qui pourraient survenir. La présentation des principes de fonctionnement se fera en deux étapes: le principe de détection d'attaques par webcam et le principe de protection contre les intrusions.
+	  
+% 	  \subsubsection{Clients}
+% 	  \paragraph{}	  
+% 	  \subsubsection{Vendeurs}
+% 	  \paragraph{}	  
+% 	  \subsubsection{Administrateurs}
+	  \paragraph{}
+	  	Les factures d'un m\^eme compteur sont identifi\'ees gr\^ace au num\'ero de police. Une fois connect\'e \`a l'appplication, le client dispose de la liste de ses  factures. Il peut donc selectionner le ou les factures qu'il d\'esire solder et proc\'eder au paiement. Le progiciel G'd'Or g\'en\`ere tous les jours \`a une heure pr\'ecise un fichier contenant les factures impay\'ees de tous les compteurs de la SBEE. Ce fichier est recu par le serveur d'application et ensuite charg\'e dans la  base de donn\'ee. Ainsi nous disposons des impay\'ees au niveau de tous les numeros de compteurs. A chaque fin de journ\'ee, \`a une heure pr\'ecise, l'application g\'en\`ere \`a son tour un fichier contenant les factures qui ont \'et\'e pay\'ees dans la journ\'ee et le total encaiss\'e. Nous considerons ce ficher comme un bilan fait par notre application \`a Gd'OR. Ce fichier permet \`a Gd'Or de valider les paiements et d'appurer les comptes en fonction des informations fournies par les prestataires de solution de paiement. Tous les \'echanges de fichiers se feront via un canal s\'ecuris\'e (SFTP et VPN). Apres utilisations, il sont archiv\'ees de facon automatique afin de garder une trace des \'echanges et des flux de donn\'ees. Les erreurs notifi\'ees sont immediatements signal\'ees aux entit\'ees concern\'ees et ils doivent y apporter des solutions le plus tot possible. 
+	  	
+	  	Exemples de fichiers 
+	  	\begin{itemize}
+		  \item Impay\'ees
+		  \item Pay\'es
+		\end{itemize}
+
+	  		  	
+	  	L'architecture de la solution se presente comme suit:
+		\begin{itemize}
+		  \item les clients
+		  \item internet
+		  \item le systeme de paiement
+		  \item les serveurs
+		  \item les routeurs, parefeu
+		\end{itemize}
+
+  \subsection{Langages de développements et outils}
+  
+      \paragraph{}
+	  Notre solution est une application web. Elle est donc accessibilité depuis tous les systemes d'exploitations du moment qu'un navigateur et d'une connnection internet sont disponibles. Elle a \'e\'e r\'ealis\'e grace au framework Django. plate-forme a été choisie en raison de son ouverture, de l'accessibilité au code source et de sa flexibilité. Pour atteindre nos objectifs, nous avons utilisé les langages java, awk et bash; les deux derniers étant des langages de script de Linux. Il est à noter que les versions Debian sont les plus concernées par notre travail. Le tableau suivant fait la synthèse des outils utilisés.
+	  
+	  \begin{itemize}
+	    \item POSTGRESQL ppur la base de donnn\'ees
+	  \end{itemize}
+
+	  \begin{itemize}
+	    \item Ubuntu 16.04
+	  \end{itemize}
+	  
+	 Les langages et outils présentés dans le tableau sont ceux utilisés pour le développement de notre application pendant que les systèmes d'exploitations présentés sont ceux utilisés pour le cas pratique.
+
+      \subsection{Environnement de Production}
+	\paragraph{}
+	  Debian est un système d'exploitation libre. Il est simple et est constitué de plus de 4000 paquets. Les paquets sont des composants logiciels précompilés conçus pour s'installer facilement sur la machine hôte. L'ouverture de Debian permet à plusieurs programmeurs de pouvoir identifier les failles de sécurité ou de créer plusieurs modules pour faire des tâches qui s'avèrent indispensables. C'est ainsi que la communauté de Debian devient de plus en plus robuste et flexible. Plusieurs systèmes d'exploitation sont dérivés de Debian dont Kali Linux spécialisé dans les tests d'intrusion. 
+  
+\section*{Conclusion}
+		\paragraph{}
+	  Dans ce chapitre, nous avons présenté les choix techniques opérés
+	  ainsi que notre solution à travers sa modélisation, son principe de fonctionnement et les outils utilisés. 
+	  Le chapitre suivant exposera les différents résultats et quelques critiques.	

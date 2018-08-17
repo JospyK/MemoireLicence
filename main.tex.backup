@@ -87,8 +87,20 @@
 
 \chapter{Revue de littérature}\label{chap:1}
   \input{corps/revue_litterature}
-  \section{Généralités sur les intrusions informatiques}
-
+  \section{G D'OR}
+    \input{corps/gdor}
+  \section{S\'ecurit\'e des applications Web}
+    \input{corps/generalite_secu_webapp}
+ 
+\chapter{Conception et Matériels}\label{chap:2}
+  \input{corps/conception_materiels}
+  \section{Conception}
+    \input{corps/conception}
+  \section{Matériels}
+    \input{corps/materiels}
+ 
+\chapter{Résultats et Discussion}\label{chap:3}
+  \input{corps/resultat_discussion}
  	
 % \include{perspectives}
 %%conclusion
