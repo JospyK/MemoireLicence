@@ -1,13 +1,73 @@
-\paragraph{}
-  Informations receuillies par rapport \`a Gd'or.
+% \paragraph{}
+%   Informations recueillies par rapport \`a Gd'or.
   
-  \begin{itemize}
-    \item Gestion Clientele Electricit\'e et/ou Eau
-    \item Comptabilit\'e G\'en\'erale, Analytique, Budg\'etaire
-    \item Paie et G
-    estion des Ressources Humaines
-    \item Gestion des stocks
-    \item Gestion des Approvisionnements
-    \item Immobilisations
-    \item Mon\'etique
-  \end{itemize}
+  \subsection{Pr\'esentation}
+    Gd'Or est le logiciel m\'etier utilis\'e par la SBEE. Il couvre la plupart des besoins des besoins de l'entreprise et int\`egre plusieurs modules dont: 
+    \begin{itemize}
+      \item la Gestion Client\`ele Electricit\'e et/ou Eau;
+      \item la Comptabilit\'e G\'en\'erale, Analytique, Budg\'etaire;
+      \item la Paie et la Gestion des Ressources Humaines;
+      \item la Gestion des Stocks;
+      \item la Gestion des Approvisionnements;
+      \item la Mon\'etique;
+      \item les Immobilisations;
+    \end{itemize}
+    G d'Or a \'et\'e con\c{c}u pour faciliter l'informatisation des sociétés de distribution d'Eau et d'Electricité. 
+    Il est utilis\'e par plusieurs entreprises des pays de l'Afrique de l'ouest dont le :
+    \begin{itemize}
+      \item \textbf{Tchad}: Société Nationale d’Electricité (SNE) et Société Tchadienne des Eaux (STE);
+      \item \textbf{Burkina-Faso}: Office National de l’Eau et de l’Assainissement (ONEA);
+      \item \textbf{Niger}: Société Nigérienne d'Electricité (NIGELEC) et Soci\'et\'e d'Exploitation des Eaux du Niger (SEEN);
+      \item \textbf{Togo}: Société Togolaise des Eaux (TDE) et Compagnie Energie Electrique du Togo (CEET);
+      \item \textbf{B\'enin}: Société Nationale des Eaux du B\'enin (\gls{soneb}) et Soci\'et\'e B\'eninoise d'Energie Electrique (SBEE);
+    \end{itemize}
+    
+    \subsection{Quelques choix techniques concernant Gd'Or}
+      \subsubsection{Langage de d\'eveloppement}
+	\paragraph{}
+	Gd'Or est un progiciel de Gestion intégré qui tourne sur une plateforme propriétaire \gls{ibm} (International Business Machines Corporation) appelée AS/400 (que l’on devrait aujourd’hui appeler system i). Les Power Systems de IBM sont des serveurs d’applications très robustes et supportant plusieurs OS (Windows, Linux et IBM i). Dans le cadre spécifique de Gd'Or l'OS est IBMI V7r2 et le langage de programmation utilisé est le \gls{rpg} (Report Programming Generator).
+	\paragraph{}
+	RPG \footnote{Ne pas confondre avec Role-Playing Game} est un langage de programmation de haut niveau pour les applications métier qui a été créé en tant que programme de création de rapports utilisé dans les systèmes d’exploitation de DEC et d’IBM. Il a ensuite évolué en un langage de programmation entièrement procédural. Sa dernière version, VisualAge RPG, est prise en charge par le principal système de mini-ordinateurs d’IBM, AS / 400.
+	\paragraph{}
+	Historiquement, RPG a probablement été le deuxième langage de programmation le plus utilisé, après \gls{cobol}, pour les applications commerciales sur les ordinateurs de milieu de gamme. Le RPG est semblable au COBOL, mais est plus concis et soi-disant plus facile à utiliser pour les non-programmeurs \cite{rpg}.
+	%Il traite son entrée ligne par ligne et ne traite pas les tableaux comme des entités conceptuelles. 
+	\paragraph{}
+	Le langage inclut la possibilité de contrôler le moment où les entrées et les sorties ont lieu, une plus grande flexibilité dans le contrôle du formatage des rapports\footnote{Les factures \'electriques sont par exemple des rapports}, la capacité de traitement par matrice, la simplification du codage et de nombreuses autres fonctionnalités pour des techniques de traitement plus sophistiquées.
+	  
+      \subsubsection{Base de donn\'ees}
+	\paragraph{}
+	  Pour le stockage et l'organisation des donn\'ees, Gd'Or utilise le Syst\`eme de Gestion de Base de Donn\'ees (SGBD) \textbf{DB2} de IBM.
+	  DB2 est un SGBD relationnel qui selon IBM, est leader en termes de part de marché et de performances de base de données. Bien que les produits DB2 soient proposés pour les systèmes UNIX et les systèmes d’exploitation pour ordinateurs personnels, DB2 se démarque des produits de base de données Oracle dans les systèmes UNIX et de Microsoft Access dans les systèmes Windows.
+
+	\paragraph{}
+	  DB2 est conçu pour stocker, analyser et extraire efficacement les données. Le produit DB2 est étendu à la prise en charge des fonctions orientées objet et des structures non relationnelles avec XML, JSON (Java Script Object Notation) et bien d'autres. Utilisé par des entreprises de toutes tailles, DB2 fournit une plateforme de données pour les opérations transactionnelles et analytiques. En assurant la disponibilité continue des données, il utilise le langage SQL tout comme Oracle, PostgreSQL ou MySQL. Il est déployé sur les Mainframes, systèmes UNIX, Windows, Mac/OS et Linux.
+
+	\paragraph{}
+	  Outre ses offres pour les systèmes d’exploitation mainframe OS / 390 et ses systèmes AS / 400 de milieu de gamme, IBM propose des produits DB2 pour un spectre multiplateforme comprenant Linux, HP-UX, Sun Solaris, UNIX, Windows 2000, les systèmes antérieurs de Microsoft et bien d'autres. Utilisé par des entreprises de toutes tailles, DB2 fournit une plateforme de données pour les opérations transactionnelles et analytiques. En assurant la disponibilité continue des données, il utilise le langage SQL tout comme Oracle, PostgreSQL ou MySQL. Il est déployé sur les Mainframes, systèmes UNIX, Windows, Mac/OS et Linux. Les bases de données DB2 sont accessibles depuis n'importe quel programme d'application à l'aide de l'interface ODBC (Open Database Connectivity) de Microsoft, de l'interface JDBC (Java Database Connectivity) ou d'un courtier d'interface CORBA.
+
+      \subsubsection{S\'ecurit\'e par rapport \`a Gd'Or}
+	\paragraph{}
+	  Gd'Or int\`egre une s\'ecurit\'e bas\'ee sur la gestion des types d'utilisateurs que nous appellerons profils. La notion de profil est un pilier dans le fonctionnement de Gd'Or. Ce sont les profils qui accréditent les utilisateurs de certains droits. Ils permettent aussi de sécuriser et d'isoler les données à certains utilisateurs. Un profil peut \^etre associé à un utilisateur et/ou \`a une entité. Pour les cas o\`u des utilisateurs ont besoin d'une ressource, certains profils ont la possibilité d'accorder l'acc\`es \`a la ressource juste pour que l'action soit execut\'ee.
+	  %Il est également possible d'ajouter un profil à un utilisateur sur plusieurs entités sans lien réel entre elles. Pour ce faire, il suffit d'ajouter un profil à un utilisateur x fois, x étant le nombre d'entités à couvrir.
+	  Les profils sont bien sûr adaptés au r\^oles et aux permissions de chaque utilisateur sur la plateforme. Ils peuvent tous etre reunis en trois cat\'egories dont: les administrateurs, les operatieurs, et les utilisateurs (simples).
+	  Cette mise en place permet d'assurer la confidentialité des informations et elle permet à chaque utilisateur du syst\`eme de se concentrer sur son travail.
+	  
+	\paragraph{}
+	  L'architecture utilis\'ee actuellement est une architecture centralis\'ee. Le serveur central est situ\'e \`a la Direction G\'eneral. Il heberge le logiciel m\'etier Gd'Or. Les clients sont tout ceux qui utilisent Gd'Or. Chaque action repr\'esente une ou plusieurs requ\`etes envoy\'ees vers le serveur central. Les agences sont connect\'es \`a 
+	  la Direction G\'en\'erale via des liasons radios faites avec des \'equipements de marque Ubiquiti. Les informations transitent via des fr\'equences libres et sont chiffr\'ees avec le chiffrement \textbf{Triple Data Encryption Algorithm (Triple DES ou 3DES)} par les routeurs. Il s'agit d'un chiffrement par bloc à clé symétrique, ce qui signifie que la même clé est utilisée pour chiffrer et déchiffrer des données dans des groupes de bits de longueur fixe, appelés blocs. Il s’appelle "Triple DES" car il applique le chiffrement DES trois fois lors du chiffrement des données. Cette architecture isole le r\'eseau et limite une grande partie des attaques. Pour avoir acc\`es aux donn\'ees il faudrait soit avoir acc\`es aux coordonn\'ees \gls{vpn}, soit \^etre directement dans le r\'eseau. 
+
+%	\paragraph{}
+%	  Les ecrans et les imprimantes
+
+      \subsection{Limites}
+	\paragraph{}
+	  Quoique robuste et assez performant, l'ergonomie de Gd'or est assez basique du fait des choix fait par l'éditeur (Groupe Cauris Informatique) de rester en mode texte (écran vert/noir, menu interactifs, etc..). Il fonctionne dans une console et les entr\'ees sont prises ligne par ligne. Gd'or est en exploitation depuis plus de 15 ans et perd de son attractivité par rapport aux autres \gls{erp} disponibles sur le marché (Odoo ERP, SAP HANA, etc..). Bien qu'il soit toujours fonctionnel et en ad\'equation avec les besoins de l'entreprise, il serait quand m\^eme bien de penser \`a lui fournir une interface graphique plus compl\`ete afin de faciliter sa prise en main et son utilisation. 
+	  
+	\paragraph{}
+	  Il est bien vrai que l'architecture actuelle pr\'eserve la SBEE des attaques venant de l'ext\'erieur. Cependant il existe beaucoup d'inconv\'enients et nous avons principalement les pertes de connexion. En r\'ealit\'e ces pertes de connexion dans les agences ne sont pas dues \`a une perte d'acc\`es \`a Internet ou tout autre chose y ayant trait. Il s'agit plut\^ot de la surcharge de la fr\'equence sur laquelle \'emet l'agence vers Direction G\'en\'erale (et vice-versa) via les PowerStation de Ubiquiti. Pour r\'esoudre le probl\`eme, un agent situ\'e au si\`ege doit changer rapidement la fr\'equence en se pla\c{c}ant sur une autre qui est plus libre. Mais cette est toujours temporaire et le processus doit \^etre r\'ep\'et\'e \`a chaque fois qu'il y a une perte de connexion.
+	  %Pour r\'egler ce probl\`eme, la SBEE pourrait ...(donner une ou des solutions).
+
+    \subsection{Participation de Gd'Or dans notre travail}
+      Gd'Or dispose du contenu. Il poss\`ede toutes les factures impay\'ees comme pay\'ees. C'est Gd'Or qui fournit quotidiennement \`a notre application, les factures \`a payer. Il g\'en\`ere des fichiers \textit{.csv} et les transmet \`a l'application. Pour \'eviter les redondances, il ne transmet que les nouvelles factures puisque les autres sont d\'ej\`a pr\'esentes dans l'application. A chaque fin de journ\'ee, il re\c{c}oit un bilan des factures pay\'ees via l'application web. Ainsi il proc\`ede aux v\'erifications et \`a l' apurement des comptes.
+      
+      

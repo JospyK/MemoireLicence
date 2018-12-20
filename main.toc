@@ -1,0 +1,165 @@
+\select@language {english}
+\select@language {french}
+\select@language {french}
+\contentsline {chapter}{Sigles et Abr\IeC {\'e}viations}{iv}{section*.1}
+\contentsline {chapter}{D\IeC {\'e}dicace}{vi}{chapter*.3}
+\contentsline {paragraph}{}{vi}{chapter*.3}
+\contentsline {chapter}{Remerciements}{vii}{chapter*.4}
+\contentsline {paragraph}{}{vii}{chapter*.4}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}/Abstract}{viii}{chapter*.5}
+\select@language {french}
+\contentsline {paragraph}{}{viii}{chapter*.5}
+\contentsline {paragraph}{}{viii}{chapter*.5}
+\contentsline {paragraph}{}{viii}{chapter*.5}
+\select@language {english}
+\contentsline {paragraph}{}{ix}{chapter*.5}
+\contentsline {paragraph}{}{ix}{chapter*.5}
+\contentsline {paragraph}{}{ix}{chapter*.5}
+\contentsline {chapter}{Introduction}{1}{chapter*.6}
+\contentsline {paragraph}{}{1}{chapter*.6}
+\contentsline {section}{\numberline {1}Contexte et justification}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Probl\IeC {\'e}matique}{1}{section.0.2}
+\contentsline {section}{\numberline {3}Objectifs}{2}{section.0.3}
+\contentsline {section}{\numberline {4}Environnement de stage}{2}{section.0.4}
+\contentsline {section}{\numberline {5}Organisation du m\IeC {\'e}moire}{3}{section.0.5}
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Revue de litt\IeC {\'e}rature}{4}{chapter.1}
+\contentsline {paragraph}{}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Gd'Or}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Pr\'esentation}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Quelques choix techniques concernant Gd'Or}{5}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Langage de d\'eveloppement}{5}{subsubsection.1.1.2.1}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.1}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.1}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.1}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Base de donn\'ees}{5}{subsubsection.1.1.2.2}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.2}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.2}
+\contentsline {paragraph}{}{5}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.3}S\'ecurit\'e par rapport \`a Gd'Or}{6}{subsubsection.1.1.2.3}
+\contentsline {paragraph}{}{6}{subsubsection.1.1.2.3}
+\contentsline {paragraph}{}{6}{subsubsection.1.1.2.3}
+\contentsline {subsection}{\numberline {1.1.3}Limites}{6}{subsection.1.1.3}
+\contentsline {paragraph}{}{6}{subsection.1.1.3}
+\contentsline {paragraph}{}{6}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Participation de Gd'Or dans notre travail}{6}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}S\'ecurit\'e des applications Web}{7}{section.1.2}
+\contentsline {paragraph}{}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Notion de hacker et de cracker}{7}{subsection.1.2.1}
+\contentsline {paragraph}{}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Mode op\IeC {\'e}ratoire d'une attaque informatique}{7}{subsection.1.2.2}
+\contentsline {paragraph}{}{7}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}La reconnaissance}{7}{subsubsection.1.2.2.1}
+\contentsline {paragraph}{}{7}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Les scans}{7}{subsubsection.1.2.2.2}
+\contentsline {paragraph}{}{7}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.3}L'exploitation}{7}{subsubsection.1.2.2.3}
+\contentsline {paragraph}{}{7}{subsubsection.1.2.2.3}
+\contentsline {subsubsection}{\numberline {1.2.2.4}Post exploitation et maintien d\IeC {\textquoteright }acc\IeC {\`e}s}{8}{subsubsection.1.2.2.4}
+\contentsline {paragraph}{}{8}{subsubsection.1.2.2.4}
+\contentsline {paragraph}{}{8}{figure.caption.7}
+\contentsline {subsection}{\numberline {1.2.3}Menaces et risques applicatifs}{8}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Failles de S\IeC {\'e}curit\IeC {\'e}}{8}{subsubsection.1.2.3.1}
+\contentsline {paragraph}{}{8}{subsubsection.1.2.3.1}
+\contentsline {paragraph}{}{8}{subsubsection.1.2.3.1}
+\contentsline {paragraph}{}{9}{subsubsection.1.2.3.1}
+\contentsline {paragraph}{}{9}{subsubsection.1.2.3.1}
+\contentsline {paragraph}{}{9}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}OWASP Top 10 - 2017}{9}{subsubsection.1.2.3.2}
+\contentsline {paragraph}{}{9}{subsubsection.1.2.3.2}
+\contentsline {paragraph}{}{9}{Item.1}
+\contentsline {paragraph}{}{9}{Item.1}
+\contentsline {paragraph}{}{9}{Item.1}
+\contentsline {paragraph}{}{9}{Item.2}
+\contentsline {paragraph}{}{10}{Item.2}
+\contentsline {paragraph}{}{10}{Item.2}
+\contentsline {paragraph}{}{10}{Item.3}
+\contentsline {paragraph}{}{10}{Item.3}
+\contentsline {paragraph}{}{10}{Item.3}
+\contentsline {paragraph}{}{10}{Item.4}
+\contentsline {paragraph}{}{11}{Item.4}
+\contentsline {paragraph}{}{11}{Item.4}
+\contentsline {paragraph}{}{11}{Item.5}
+\contentsline {paragraph}{}{11}{Item.5}
+\contentsline {paragraph}{}{11}{Item.5}
+\contentsline {paragraph}{}{11}{Item.6}
+\contentsline {paragraph}{}{11}{Item.6}
+\contentsline {paragraph}{}{11}{Item.6}
+\contentsline {paragraph}{}{12}{Item.7}
+\contentsline {paragraph}{}{12}{Item.7}
+\contentsline {paragraph}{}{12}{Item.7}
+\contentsline {paragraph}{}{12}{Item.8}
+\contentsline {paragraph}{}{12}{Item.8}
+\contentsline {paragraph}{}{12}{Item.8}
+\contentsline {paragraph}{}{13}{Item.9}
+\contentsline {paragraph}{}{13}{Item.9}
+\contentsline {paragraph}{}{13}{Item.9}
+\contentsline {paragraph}{}{13}{Item.10}
+\contentsline {paragraph}{}{13}{Item.10}
+\contentsline {paragraph}{}{13}{Item.10}
+\contentsline {chapter}{\numberline {2}Conception et Mat\IeC {\'e}riels}{15}{chapter.2}
+\contentsline {paragraph}{}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Conception}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}M\IeC {\'e}thode de mod\IeC {\'e}lisation}{15}{subsection.2.1.1}
+\contentsline {paragraph}{}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Diagramme de cas d'utilisation}{15}{subsection.2.1.2}
+\contentsline {paragraph}{}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Diagramme de s\IeC {\'e}quence}{16}{subsection.2.1.3}
+\contentsline {paragraph}{}{16}{subsection.2.1.3}
+\contentsline {paragraph}{}{17}{figure.caption.9}
+\contentsline {section}{\numberline {2.2}Mat\IeC {\'e}riels}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Principe de fonctionnement de notre solution}{17}{subsection.2.2.1}
+\contentsline {paragraph}{}{17}{subsection.2.2.1}
+\contentsline {paragraph}{}{17}{subsection.2.2.1}
+\contentsline {paragraph}{}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Contr\^ole des acc\`es: RBAC}{18}{subsection.2.2.2}
+\contentsline {paragraph}{}{18}{subsection.2.2.2}
+\contentsline {paragraph}{}{19}{figure.caption.11}
+\contentsline {subsection}{\numberline {2.2.3}Solutions de paiement}{19}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Langages de d\IeC {\'e}veloppement et outils}{20}{subsection.2.2.4}
+\contentsline {paragraph}{}{20}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Utilisation d'un framework}{20}{subsubsection.2.2.4.1}
+\contentsline {paragraph}{}{20}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Pr\'esentation de Django}{20}{subsubsection.2.2.4.2}
+\contentsline {subsubsection}{\numberline {2.2.4.3}S\'ecurit\'e avec Django}{21}{subsubsection.2.2.4.3}
+\contentsline {subsubsection}{\numberline {2.2.4.4}Compression et Format XZ}{21}{subsubsection.2.2.4.4}
+\contentsline {subsubsection}{\numberline {2.2.4.5}PostgreSQL}{22}{subsubsection.2.2.4.5}
+\contentsline {subsubsection}{\numberline {2.2.4.6}Ubuntu 16.04 LTS}{22}{subsubsection.2.2.4.6}
+\contentsline {subsection}{\numberline {2.2.5}Environnement de Production}{22}{subsection.2.2.5}
+\contentsline {paragraph}{}{22}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Serveur Web}{23}{subsubsection.2.2.5.1}
+\contentsline {paragraph}{}{23}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Serveur de base de donn\'ees}{25}{subsubsection.2.2.5.2}
+\contentsline {paragraph}{}{25}{subsubsection.2.2.5.2}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Serveur de Fichiers}{26}{subsubsection.2.2.5.3}
+\contentsline {paragraph}{}{26}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}Intrusion Detection System (IDS)}{26}{subsubsection.2.2.5.4}
+\contentsline {paragraph}{}{26}{subsubsection.2.2.5.4}
+\contentsline {subsubsection}{\numberline {2.2.5.5}Centralisation des journaux d\IeC {\textquoteright }\IeC {\'e}v\IeC {\'e}nements (logs)}{26}{subsubsection.2.2.5.5}
+\contentsline {paragraph}{}{26}{subsubsection.2.2.5.5}
+\contentsline {subsubsection}{\numberline {2.2.5.6}Les r\`egles Iptables}{27}{subsubsection.2.2.5.6}
+\contentsline {subsubsection}{\numberline {2.2.5.7}Ubuntu Server 18.04 LTS}{27}{subsubsection.2.2.5.7}
+\contentsline {paragraph}{}{27}{subsubsection.2.2.5.7}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}sultats et Discussion}{28}{chapter.3}
+\contentsline {paragraph}{}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pr\IeC {\'e}sentation des r\IeC {\'e}sultats des tests}{28}{section.3.1}
+\contentsline {paragraph}{}{28}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Interfaces Abonn\'e}{29}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Interfaces Administrateurs}{32}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Discussion}{33}{section.3.2}
+\contentsline {paragraph}{}{33}{section.3.2}
+\contentsline {paragraph}{}{33}{section.3.2}
+\contentsline {paragraph}{}{33}{section.3.2}
+\contentsline {paragraph}{}{33}{section.3.2}
+\contentsline {paragraph}{}{33}{section.3.2}
+\contentsline {chapter}{Conclusion et Perspectives}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {paragraph}{}{34}{chapter*.25}
+\contentsline {chapter}{Bibliographie}{35}{chapter*.26}
+\contentsline {chapter}{Webographie}{36}{chapter*.27}

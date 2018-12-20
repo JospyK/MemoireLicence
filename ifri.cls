@@ -33,8 +33,8 @@
 \do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\%\do\=}%
 %\usepackage{color} % les couleurs avec les divers modes d'appels
 % activer tous les liens
-\usepackage[ 
-            colorlinks=true,%activer la coloration des liens 
+\usepackage[
+            colorlinks=true,%activer la coloration des liens
             linkcolor=RoyalBlue,% personaliser la couleur des liens simple
             ]{hyperref}
 
@@ -44,7 +44,7 @@
 % \renewcommand*{\glsgroupskip}{}
 % \renewcommand*{\glsseeformat}[3][\seename]{%
 % (\xmakefirstuc{#1} \glsseelist{#2}.)}
- 
+
 \usepackage{fancyhdr}
 \usepackage{lastpage} % la dernière page
 \usepackage{titlesec} % modifification des titres
@@ -64,7 +64,7 @@
 \definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
 \definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
 \definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % javadoc
-\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}  
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
 \lstset{
 %language=Java,
 basicstyle=\ttfamily,
@@ -78,7 +78,7 @@ tabsize=2,
 showspaces=false,
 showstringspaces=false,
 extendedchars=true,
-backgroundcolor=\color{lbcolor}, 
+backgroundcolor=\color{lbcolor},
 literate={á}{{\'a}}1 {ã}{{\~a}}1 {é}{{\'e}}1,
 frame=leftline
 }
@@ -97,7 +97,7 @@ frame=leftline
 \usepackage{algpseudocode} % algorithmic
 %\usepackage{algorithmic}
 
-%\usepackage{auto-pst-pdf} 
+%\usepackage{auto-pst-pdf}
 \usepackage{pstricks,pst-node,pst-tree}
 
 %%%%%%%%%% personnalisation des algos
@@ -158,7 +158,7 @@ frame=leftline
 \begin{formal}
 \emph{{#1}}
 \end{formal}
-}	
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -166,7 +166,7 @@ frame=leftline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\epigraphe}[3]{
     \begin{formal}
-	\ding{125}    
+	\ding{125}
     {\itshape #1}
     \ding{126}
     \end{formal}
@@ -206,7 +206,7 @@ frame=leftline
 \newcommand\dedicace{\chapter*{Dédicace}\addcontentsline{toc}{chapter}{Dédicace}}
 \newcommand\remerciements{\chapter*{Remerciements}\addcontentsline{toc}{chapter}{Remerciements}}
 \newcommand\introduction{\chapter*{Introduction}\addcontentsline{toc}{chapter}{Introduction}}
-\newcommand\conclusion{\chapter*{Conclusion}\addcontentsline{toc}{chapter}{Conclusion}}
+\newcommand\conclusion{\chapter*{Conclusion et Perspectives}\addcontentsline{toc}{chapter}{Conclusion et Perspectives}}
 \newcommand\resume{\chapter*{}\addcontentsline{toc}{chapter}{Résumé/Abstract}}
 \newcommand\annexe{\chapter*{}\addcontentsline{toc}{chapter}{Annexes}}
 
@@ -317,7 +317,7 @@ frame=leftline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{nomencl}
 \renewcommand{\nomname}{Sigles et abréviations}
-\makenomenclature 
+\makenomenclature
 %\newcommand\resume{\chapter*{}\addcontentsline{toc}{chapter}{Résumé/Abstract}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

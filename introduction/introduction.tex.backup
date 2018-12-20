@@ -1,24 +1,25 @@
 \introduction
     \paragraph{}
       \small{
-      L'informatique, science du traitement rationnel et automatisé de l'information, est devenue aujourd'hui un outil indispensable pour l'évolution de toute nation, de toute société. Elle est passée d'un statut luxueux à un statut nécessaire. La preuve : toute structure de renom investit un budget non n\'egligeable pour l'informatisation de ses opérations. Cependant, certains sont ne sont toujours pas en phase avec l'\'evolution de la technologie en rapport avec les services qu'ils offrent et la s\'ecurit\'e de ces derni\`eres. Dans le m\^eme temps, des individus profitent de ce ph\'enom\`ene pour pi\'eger les autres ignorant le fonctionnement de l'ordinateur ou non dans le but de voler ou alt\'erer des informations précieuses et confidentielles pour des fins diverses : c'est la cybercriminalité. Vu l'ampleur que prend ces diff\'erents crimes, il devient n\'ecessaire de voir autrement l'importance de la s\'ecurit\'e dans tous les syst\`emes d'informations.
+      L'informatique, science du traitement rationnel et automatisé de l'information, est devenue aujourd'hui un outil indispensable pour l'évolution de toute entreprise. Elle est passée d'un statut luxueux à un statut nécessaire. La preuve : toute structure de renom investit un budget non n\'egligeable pour l'informatisation de ses opérations. Cependant, certaines entreprises ne sont toujours pas en phase avec l'\'evolution de la technologie en rapport avec les services qu'ils offrent et la s\'ecurit\'e de ces derniers. Dans le m\^eme temps, des individus profitent de ce ph\'enom\`ene pour pi\'eger d'autres ignorant le fonctionnement de l'ordinateur dans le but de voler ou alt\'erer des informations précieuses et confidentielles pour des fins diverses : c'est la cybercriminalité. Vu l'ampleur que prend ces diff\'erents crimes, il devient n\'ecessaire de voir autrement l'importance de la s\'ecurit\'e dans tous les syst\`emes d'information.
     
     \section{Contexte et justification}
-    
-	Le Bénin s’inscrit depuis quelques années dans une politique de restructuration du secteur numérique pour y insuffler une nouvelle dynamique. Plusieurs projets et programmes sont donc nés de cette volonté et constituent une feuille de route pour les acteurs au cœur de cette restructuration. 
-	\\Dans l'optique de contribuer au d\'eveloppement de ce secteur et surtout de faciliter la vie \`a la population b\'eninoise, nous avons pens\'e \`a mettre en place une plateforme permettant le paiement \`a distance des factures d'\'electricit\'e de la SBEE. Cependant, il s'agit d'un syst\`emes assez critique lorsque nous consid\'erons la quantit\'e et la criticit\'e/le caractère critique  du flux d'informations que nous aurons \`a traiter. La sécurité de l'information revêtant une importance capitale pour la survie d'un peuple, il faudra aussi mettre en oeuvre un système de défense face aux menaces pour réduire l'impact des attaques et essayer, au maximum, d'éliminer les risques. Un aucun aspect ne doit \^etre pris \`a la l\'eg\`ere.
+	Le Bénin s’inscrit depuis pr\`es de 2ans dans une politique de restructuration du secteur numérique pour y insuffler une nouvelle dynamique. Plusieurs projets et programmes sont donc nés de cette volonté et cons-tituent une feuille de route pour les acteurs au cœur de cette restructuration. 
+	\\Dans l'optique de contribuer au d\'eveloppement de ce secteur et surtout de faciliter la vie \`a la population b\'eninoise, nous avons pens\'e \`a mettre en place une plateforme permettant le paiement en ligne des factures d'\'electricit\'e de la \gls{sbee}. Cependant, il s'agit d'un syst\`eme assez complexe lorsque nous consid\'erons la quantit\'e et la criticit\'e du flux d'informations que nous aurons \`a traiter. La sécurité de l'information revêtant une importance capitale pour la survie d'une entreprise, il faudra aussi mettre en oeuvre un système de défense face aux menaces pour réduire l'impact des attaques et essayer, au maximum, d'éliminer les risques.
+	%Aucun aspect ne doit \^etre pris \`a la l\'eg\`ere.
 	}
     
     \section{Problématique}
     \small{
 	Il n'est plus \`a d\'emontrer que l'\'electricit\'e est \`a la base de tout d\'eveloppement. De la disponibilité de l’énergie dépend la satisfaction de tous les besoins humains fondamentaux : l’eau, l’alimentation, la santé, l’éducation. L'option la plus accessible est de souscrire \`a un abonnement post-pay\'e avec la SBEE.
-	N\'eanmoins il n'est pas rare de constater qu'apr\`es de longues heures d'attente au guichet de la SBEE, l'on vous dise: ``D\'esol\'e monsieur nous avons un probl\`eme de connexion. Veuillez repasser demain.''. Il faudra donc repasser plus tard pour solder la facture alors que nous n'avons pas forc\'ement assez de temps pour cela. \\
-	Nous sommes aussi parfois confront\'es \`a l'oubli des factures non pay\'ees. Cependant quand vous n'\^etes pas \`a jour apr\`es un d\'elai d'environ un mois, un agent peut passer \`a tout moment couper le courant et vous devez payer des p\'enalit\'es. Notre travail consistera donc \`a mettre en place une application web permettant le paiement des factures depuis un t\'el\'ephone portable ou un ordinateur connect\'e \`a Internet. Cependant les donn\'ees g\'eres par cette application sont sensibles et critiques. A titre d'exemple les informations de votre carte VISA\footnote{Carte de paiement émise par l'établissement bancaire de son titulaire} pourraient \^etres vol\'ees. La carte sera donc utilis\'ee a votre insu et votre argent ne vous appartiendra plus. Il sera donc néccessaire de prendre en compte toutes les menaces possibles et d'y apporter des solutions efficientes. Ainsi nous pourrions avoir une application securis\'ee permettant le paiement des factures \'electriques depuis un appareil connect\'e \`a Internet.
+	N\'eanmoins il n'est pas rare de constater qu'apr\`es de longues heures d'attente aux guichets de la SBEE, l'on vous dise: ``D\'esol\'e monsieur nous avons un probl\`eme de connexion. Veuillez repasser demain.''. Il faudra donc repasser plus tard pour solder la facture alors que nous n'avons pas forc\'ement assez de temps pour cela. \\
+	Nous sommes aussi parfois confront\'es \`a l'oubli des factures non pay\'ees. Cependant quand vous n'\^etes pas \`a jour apr\`es un d\'elai d'environ un mois, un agent peut passer \`a tout moment couper le courant et vous allez devoir payer des p\'enalit\'es.\\
+	Notre travail consistera donc \`a mettre en place une application web permettant le paiement des factures depuis un t\'el\'ephone portable ou un ordinateur connect\'e \`a Internet. Cependant les donn\'ees g\'er\'ees par cette application sont sensibles et critiques. A titre d'exemple les informations de votre carte VISA\footnote{Carte de paiement émise par l'établissement bancaire de son titulaire} pourraient \^etre vol\'ees. La carte sera donc utilis\'ee \`a votre insu et votre argent ne vous appartiendra plus. Il sera donc nécessaire de prendre en compte toutes les menaces possibles et d'y apporter des solutions efficientes. Ainsi nous pourrions avoir une application s\'ecuris\'ee permettant le paiement des factures \'electriques depuis un appareil connect\'e \`a Internet.
 	}
 
     \section{Objectifs}
     \small{ 
-	  Notre projet a pour objectif principal de faciliter le paiement des factures \'electriques de la SBEE et de mettre en place les garde four néccessaire pour réduire les attaques informatiques.
+	  Notre projet a pour objectif principal de faciliter le paiement des factures \'electriques de la SBEE et de mettre en place les garde-fous nécessaires pour réduire les attaques informatiques.
 	        
 	  Plus précisément, il s'agira de :
 	
@@ -26,18 +27,30 @@
 	\item Rappeler aux personnes utilisant la plateforme qu'ils ont des impay\'es (via des SMS et/ou des emails)
         \item Assurer la disponibilit\'e compl\`ete de la plateforme afin que les consultations et paiements puissent se faire \`a n'importe quel moment.
 	\item Garantir la s\'ecurit\'e de toutes les transactions financi\`eres effectu\'ees via la plateforme
-	\item Construire une historique afin d'avoir une trace des factures pay\'ees et impay\'ees ainsi que des d\'epenses.
+	\item Construire un historique afin d'avoir une trace des factures ainsi que des paiements.
     \end{itemize}
     }
 
     \section{Environnement de stage}
       \small{
-	Ce travail \`a \'et\'e r\'ealis\'e dans les locaux de la Direction des Syst\`emes Informatiques (DSI) de la Soci\'et\'e B\'eninoise d'Energie Electrique (SBEE) - Direction G\'en\'erale. La SBEE a pour mission de produire, de transporter et de distribuer l’énergie électrique sur l’ensemble du territoire national. Elle a son siège social à Cotonou - Ganhi et couvre le territoire national à travers  huit (8) Directions Régionales et trente-neuf (39) agences géographiquement réparties dans tous les départements du pays.
+	Ce travail a \'et\'e r\'ealis\'e dans les locaux de la Direction des Syst\`emes d'Information (DSI) de la Soci\'et\'e B\'eninoise d'Energie Electrique (SBEE) - Direction G\'en\'erale. La SBEE a pour mission de produire, de transporter et de distribuer l’énergie électrique sur l’ensemble du territoire national. Mais elle produit aussi de l’énergie électrique pour combler le déficit énergétique en cas de besoin. Elle a l’obligation de satisfaire les exigences de sa clientèle qui sont :
+	\begin{itemize}
+	   \item la bonne qualité de l’énergie distribuée ;
+	   \item la disponibilité de l’énergie ;
+	   \item l’acquisition de l’énergie à moindre coût.
+	\end{itemize}
+	Ces trois exigences constituent à tout moment des défis à relever pour la société. Pour améliorer la qualité de ses prestations, la SBEE nourrit un certain nombre d’ambitions :
+	\begin{itemize}
+	  \item disposer d’un réseau stable ;
+	  \item renforcer sa capacité de production d’énergie électrique ;
+	  \item protéger et assurer efficacement la maintenance de ses installations.
+	\end{itemize}
+	Elle a son siège social à Cotonou - Ganhi et couvre le territoire national à travers  huit (8) Directions Régionales et quarante deux (42) agences géographiquement réparties dans tous les départements du pays.
       }
       
     \section{Organisation du mémoire}
 	\small{
-	  Le présent travail se présente en trois (03) chapitres. Le premier concerne la revue de littérature sur le syst\`emes existant (actuel) permettant le paiement des factures et quelques notions par rapport \`a la s\'ecurit\'e des applications Web . Le deuxième chapitre aborde les choix techniques opérés en vue de la conception et de la réalisation des solutions proposées. Le troisième chapitre, quant à lui, fait une analyse critique des résultats issus de nos tests après les avoir exposés.
+	  Le présent travail se présente en trois (03) chapitres. Le premier concerne la revue de littérature sur le syst\`eme existant (actuel) permettant le paiement des factures et quelques notions par rapport \`a la s\'ecurit\'e des applications Web. Le deuxième chapitre aborde les choix organisationnels (proc\'edures) et techniques opérés en vue de la conception et de la réalisation des solutions proposées. Le troisième chapitre, quant à lui, fait une analyse critique des résultats issus de nos tests après les avoir exposés.
 	}
 
 

@@ -2,32 +2,45 @@
 
 \setlength{\glsdescwidth}{0.65\textwidth}
 % \usepackage{lscape}
+\frenchbsetup{StandardLists=true} % à inclure si on utilise \usepackage[french]{babel}
+\usepackage{enumitem}
 
 \typeMemoire{Diplôme de Licence en Informatique}
 \optionFormation{Sécurité Informatique}
 \etudiant{Jospy \textbf{GOUDALO}}
-\titreDuMemoire{Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.}
+\titreDuMemoire{Prototype d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE dans un environnement s\'ecuris\'e.}
 
 \dateSoutenance{-}
 %\promo{2\up{ème}}
 \anneeScolaire{2017-2018}
 
 %%maitre de mémoire
-\encadrants{\textbf{Professeur Eugène C. EZIN}\\Maître de Conférences en Informatique\\Université d'Abomey-Calavi}
+\encadrants{\textbf{Professeur Eugène C. EZIN}\\Enseignant - chercheur en Informatique\\Université d'Abomey-Calavi}
 
 \hypersetup{
- pdftitle={Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.},
+ pdftitle={Prototype d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE dans un environnement s\'ecuris\'e.},
  pdfauthor={Jospy GOUDALO, jospygoudalo@gmail.com},
- pdfsubject={Proposition d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE.},
- pdfkeywords={système, paiement, factures, electriques, SBEE} 
+ pdfsubject={Prototype d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE dans un environnement s\'ecuris\'e.},
+ pdfkeywords={système, paiement, factures, \'electriques, SBEE}
  }
 
 \color{bookColor}
 
 %importation du glossaire
+\makeglossaries
 \loadglsentries{glossaire/glossaire_reduit}
 
 \begin{document}
+
+\makeatletter
+\renewcommand{\thesection}{%
+  \ifnum\c@chapter<1 \@arabic\c@section
+  \else \thechapter.\@arabic\c@section
+  \fi
+}
+\makeatother
+
+
 
 \pageDeGarde
 %\pageTitre
@@ -46,10 +59,10 @@
 \newpage
 
 %liste des figures
-\listoffigures 
+\listoffigures
 
 %liste des tableaux
-\listoftables
+%\listoftables
 
 %liste des algo
 \selectlanguage{french}
@@ -69,7 +82,7 @@
 %% remerciements
 \include{remerciements/remerciements}
 
-%\newpage 
+%\newpage
 
 % Résume
 \include{resume/resume}
@@ -85,14 +98,14 @@
 \fancyhead[R]{\scriptsize \rightmark}
 \fancyfoot[C]{\thepage}
 
+
 \chapter{Revue de littérature}\label{chap:1}
-  \input{corps/revue_litterature}
-  \section{G D'OR}
+    \input{corps/revue_litterature}
+  \section{Gd'Or}
     \input{corps/gdor}
   \section{S\'ecurit\'e des applications Web}
     \input{corps/generalite_secu_webapp}
 
- 
 \chapter{Conception et Matériels}\label{chap:2}
   \input{corps/conception_materiels}
    \section{Conception}
@@ -100,20 +113,22 @@
    \section{Matériels}
      \input{corps/materiels}
 
- \chapter{Résultats et Discussion}\label{chap:3}
+\chapter{Résultats et Discussion}\label{chap:3}
    \input{corps/resultat_discussion}
-	
- \include{perspectives}
+
+ %\include{perspectives}
 %conclusion
 \include{conclusion/conclusion}
- 
+
 \lhead[]{} \rhead[]{} \chead[]{}
 
 %%biblio
-\addcontentsline{toc}{chapter}{Bibliographie}
-\bibliographystyle{abbrv}
-\bibliography{biblio/biblio}
+%\addcontentsline{toc}{chapter}{Bibliographie}
+%\bibliographystyle{abbrv}
+%\bibliography{biblio/biblio}
+
+\include{biblio/biblio}
 
 
 \include{annexe}
-\end{document}          
+\end{document}

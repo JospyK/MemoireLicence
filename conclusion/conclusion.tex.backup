@@ -1,0 +1,11 @@
+\conclusion
+    \paragraph{}
+	Une entreprise doit apprendre \`a fid\'eliser ses clients. On dit chez nous que le client est Roi. Pour une entreprise qui fournit des services \`a l'echelle nationale, savoir que chaque client qui vient en agence solder sa facture perd du temps, ce n'est pas une information agr\'eable. Ces pertes de temps peuvent etre expliqu\'ees par les longues queues, les problemes de connexion. 
+
+    \paragraph{}
+	L'objet de ce mémoire a donc été de proposer un prototype d'un syst\`eme de paiement \'electronique des factures d'\'electricit\'e de la SBEE dans un environnement s\'ecuris\'e. Il s'agit d'une part de l'application web r\'ealis\'ee et d'autre part de la mise en production de cette application. La solution est accessible via internet et ne requiert aucun équipement ou installation spécifique chez l'utilisateur et plusieurs mesures ont \'et\'e prises pour assurer le fonctionnement en toute qui\'etude de la solution.
+	
+    \paragraph{}
+	Dans ce mémoire, nous avons tout d'abord fait la revue de littérature autour du progiciel permettant le paiement des factures et quelques notions par rapport \`a la s\'ecurit\'e des applications Web. Nous avons ensuite réalisé la conception de la solution et propos\'e une architecture pour ca mise en production. Enfin nous avons expos\'e les résultats et critiques de l'application r\'ealis\'ee.
+    \paragraph{}
+	Bien que notre solution réponde au besoin énoncé, il faut noter certaines insuffisances telles que les doublures lors des paiements des factures. La disponibilit\'e limit\'e de l'application pour reduire les cas de doublures. D'une part, un autre axe de recherche en ce qui concerne les travaux futurs sera de permettre l'achat de cr\'edit pr\'epay\'e depuis la m\^eme plateforme. Aussi ce travail devrait \^etre pr\'esent\'e \`a la SONEB afin qu'ils puissent aussi en b\'en\'eficier. Gd'or en mode connect\'e??

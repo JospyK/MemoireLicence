@@ -1,20 +1,28 @@
 \resume
 \selectlanguage{french}
 \begin{abstract}
-Resume en francais
+\paragraph{}
+L'acc\`es \`a Internet devient de plus en plus croissant. Cela peut s'expliqu\'er par les nombreux avantages qu'offre le digital et pr\'ecis\'ement Internet.
+Parmi ces nombreux avantages, il permet aux entreprises d'offrir des services aux clients depuis n'importe quel endroit. C'est gr\^ace \`a cet avantage que nous avons 
+voulu mettre \`a la disposition de la population b\'eninoise, une application Web leur permettant de consulter et de payer leurs factures depuis un navigateur web. Cela leur
+permettrait essentiellement d'\'eviter les pertes de temps dues aux longues queues aux guichets de la SBEE et d'avoir un acc\`es plus facile \`a leurs factures.
+\paragraph{}
+Bien qu'Internet dispose de beaucoup d'avantages, il n'est pas pour autant sans danger. La cybercriminalit\'e prend de l'ampleur et les tentatives d’intrusion dans les systèmes informatiques croissent de façon exponentielle. Au regard de ces faits, il faut que des mesures de s\'ecurit\'e soient prises afin d'\'eviter au maximum des intrusions au niveau de notre application et des diff\'erents serveurs. Nous proposons ainsi une architecture s\'ecuris\'ee pour la mise en production de notre application qui sera g\'er\'ee en interne (d\'eploy\'ee au sein de la SBEE).
+
 
 \paragraph{}
-\textbf{Mots clés}: factures ,paiement, sbee,
+\textbf{Mots clés}: S\'ecurit\'e Informatique, Paiement en ligne, Factures, SBEE
 \end{abstract}
 
 \newpage
 \selectlanguage{english}
 \begin{abstract}
 
-Resume en anglais
+Internet access is becoming increasingly popular. This can be explained by all the advantages offered by digital and precisely Internet. Among these advantages, it allows
+companies to offer services to customers whatever they are. Based upon this advantage, we wanted to make available to the Beninese people, a web application allowing them to view and pay their bills from a web browser. This would essentially prevent the lost of time due to the long queues at the counter and to have easier access to their invoices. 
+
+Despite all benifits from Internet, some drawbacks are known like cybercriminality, intrusion attempts into computer systems. Cybercrime is on the rise and intrusion attempts into computer systems is growing exponentially. With regard to these, several security measures must be taken in order to avoid as much as possible intrusions at the level of our application and the various servers. We therefore propose a secured architecture customized for the production of our application, which will be managed internally ( i.e. deployed within SBEE).
 
 \paragraph{}
-\textbf{Key words}: ....,....,....
+\textbf{Key words}: IT Security, Online Payment, Invoices, SBEE
 \end{abstract}
-
-

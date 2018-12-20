@@ -1,0 +1,690 @@
+\ifglsentryexists{acro}{}%
+{%
+\gls@defglossaryentry{acro}%
+{%
+name={acronyme},%
+sort={acronyme},%
+type={acronym},%
+first={Def acronyme\glsspace (acronyme)},%
+firstplural={Def acronymes\glsspace (acronymes)},%
+text={acronyme},%
+plural={acronymes},%
+description={Def acronyme},%
+descriptionplural={Def acronyme\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Def acronyme},%
+longplural={Def acronymes},%
+short={acronyme},%
+shortplural={acronymes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dos}{}%
+{%
+\gls@defglossaryentry{dos}%
+{%
+name={DoS},%
+sort={DoS},%
+type={acronym},%
+first={Denial of Service\glsspace (DoS)},%
+firstplural={Denial of Services\glsspace (DoSs)},%
+text={DoS},%
+plural={DoSs},%
+description={Denial of Service},%
+descriptionplural={Denial of Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Denial of Service},%
+longplural={Denial of Services},%
+short={DoS},%
+shortplural={DoSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dns}{}%
+{%
+\gls@defglossaryentry{dns}%
+{%
+name={DNS},%
+sort={DNS},%
+type={acronym},%
+first={Domain Name Server\glsspace (DNS)},%
+firstplural={Domain Name Servers\glsspace (DNSs)},%
+text={DNS},%
+plural={DNSs},%
+description={Domain Name Server},%
+descriptionplural={Domain Name Server\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Domain Name Server},%
+longplural={Domain Name Servers},%
+short={DNS},%
+shortplural={DNSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hids}{}%
+{%
+\gls@defglossaryentry{hids}%
+{%
+name={HIDS},%
+sort={HIDS},%
+type={acronym},%
+first={Host Intrusion Detection System\glsspace (HIDS)},%
+firstplural={Host Intrusion Detection Systems\glsspace (HIDSs)},%
+text={HIDS},%
+plural={HIDSs},%
+description={Host Intrusion Detection System},%
+descriptionplural={Host Intrusion Detection System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Host Intrusion Detection System},%
+longplural={Host Intrusion Detection Systems},%
+short={HIDS},%
+shortplural={HIDSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{icmp}{}%
+{%
+\gls@defglossaryentry{icmp}%
+{%
+name={ICMP},%
+sort={ICMP},%
+type={acronym},%
+first={Internet Control Message Protocol\glsspace (ICMP)},%
+firstplural={Internet Control Message Protocols\glsspace (ICMPs)},%
+text={ICMP},%
+plural={ICMPs},%
+description={Internet Control Message Protocol},%
+descriptionplural={Internet Control Message Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet Control Message Protocol},%
+longplural={Internet Control Message Protocols},%
+short={ICMP},%
+shortplural={ICMPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ids}{}%
+{%
+\gls@defglossaryentry{ids}%
+{%
+name={IDS},%
+sort={IDS},%
+type={acronym},%
+first={Intrusion Detection System\glsspace (IDS)},%
+firstplural={Intrusion Detection Systems\glsspace (IDSs)},%
+text={IDS},%
+plural={IDSs},%
+description={Intrusion Detection System},%
+descriptionplural={Intrusion Detection System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Intrusion Detection System},%
+longplural={Intrusion Detection Systems},%
+short={IDS},%
+shortplural={IDSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ip}{}%
+{%
+\gls@defglossaryentry{ip}%
+{%
+name={IP},%
+sort={IP},%
+type={acronym},%
+first={Internet Protocol\glsspace (IP)},%
+firstplural={Internet Protocols\glsspace (IPs)},%
+text={IP},%
+plural={IPs},%
+description={Internet Protocol},%
+descriptionplural={Internet Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet Protocol},%
+longplural={Internet Protocols},%
+short={IP},%
+shortplural={IPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ips}{}%
+{%
+\gls@defglossaryentry{ips}%
+{%
+name={IPS},%
+sort={IPS},%
+type={acronym},%
+first={Intrusion Prevention System\glsspace (IPS)},%
+firstplural={Intrusion Prevention Systems\glsspace (IPSs)},%
+text={IPS},%
+plural={IPSs},%
+description={Intrusion Prevention System},%
+descriptionplural={Intrusion Prevention System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Intrusion Prevention System},%
+longplural={Intrusion Prevention Systems},%
+short={IPS},%
+shortplural={IPSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lts}{}%
+{%
+\gls@defglossaryentry{lts}%
+{%
+name={LTS},%
+sort={LTS},%
+type={acronym},%
+first={Long Term Support\glsspace (LTS)},%
+firstplural={Long Term Supports\glsspace (LTSs)},%
+text={LTS},%
+plural={LTSs},%
+description={Long Term Support},%
+descriptionplural={Long Term Support\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Long Term Support},%
+longplural={Long Term Supports},%
+short={LTS},%
+shortplural={LTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nids}{}%
+{%
+\gls@defglossaryentry{nids}%
+{%
+name={NIDS},%
+sort={NIDS},%
+type={acronym},%
+first={Node Intrusion Detection System\glsspace (NIDS)},%
+firstplural={Node Intrusion Detection Systems\glsspace (NIDSs)},%
+text={NIDS},%
+plural={NIDSs},%
+description={Node Intrusion Detection System},%
+descriptionplural={Node Intrusion Detection System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Node Intrusion Detection System},%
+longplural={Node Intrusion Detection Systems},%
+short={NIDS},%
+shortplural={NIDSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rfc}{}%
+{%
+\gls@defglossaryentry{rfc}%
+{%
+name={RFC},%
+sort={RFC},%
+type={acronym},%
+first={Request For Comment\glsspace (RFC)},%
+firstplural={Request For Comments\glsspace (RFCs)},%
+text={RFC},%
+plural={RFCs},%
+description={Request For Comment},%
+descriptionplural={Request For Comment\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Request For Comment},%
+longplural={Request For Comments},%
+short={RFC},%
+shortplural={RFCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{oisf}{}%
+{%
+\gls@defglossaryentry{oisf}%
+{%
+name={OISF},%
+sort={OISF},%
+type={acronym},%
+first={Open Information Security Foundation\glsspace (OISF)},%
+firstplural={Open Information Security Foundations\glsspace (OISFs)},%
+text={OISF},%
+plural={OISFs},%
+description={Open Information Security Foundation},%
+descriptionplural={Open Information Security Foundation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Information Security Foundation},%
+longplural={Open Information Security Foundations},%
+short={OISF},%
+shortplural={OISFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{osi}{}%
+{%
+\gls@defglossaryentry{osi}%
+{%
+name={OSI},%
+sort={OSI},%
+type={acronym},%
+first={Open Systems Interconnection\glsspace (OSI)},%
+firstplural={Open Systems Interconnections\glsspace (OSIs)},%
+text={OSI},%
+plural={OSIs},%
+description={Open Systems Interconnection},%
+descriptionplural={Open Systems Interconnection\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Systems Interconnection},%
+longplural={Open Systems Interconnections},%
+short={OSI},%
+shortplural={OSIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ssh}{}%
+{%
+\gls@defglossaryentry{ssh}%
+{%
+name={SSH},%
+sort={SSH},%
+type={acronym},%
+first={Secure Shell\glsspace (SSH)},%
+firstplural={Secure Shells\glsspace (SSHs)},%
+text={SSH},%
+plural={SSHs},%
+description={Secure Shell},%
+descriptionplural={Secure Shell\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Secure Shell},%
+longplural={Secure Shells},%
+short={SSH},%
+shortplural={SSHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sptic}{}%
+{%
+\gls@defglossaryentry{sptic}%
+{%
+name={SPTIC},%
+sort={SPTIC},%
+type={acronym},%
+first={Service de la Promotion des Technologies de l'Information et de la Communication\glsspace (SPTIC)},%
+firstplural={Service de la Promotion des Technologies de l'Information et de la Communications\glsspace (SPTICs)},%
+text={SPTIC},%
+plural={SPTICs},%
+description={Service de la Promotion des Technologies de l'Information et de la Communication},%
+descriptionplural={Service de la Promotion des Technologies de l'Information et de la Communication\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service de la Promotion des Technologies de l'Information et de la Communication},%
+longplural={Service de la Promotion des Technologies de l'Information et de la Communications},%
+short={SPTIC},%
+shortplural={SPTICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tcp}{}%
+{%
+\gls@defglossaryentry{tcp}%
+{%
+name={TCP},%
+sort={TCP},%
+type={acronym},%
+first={Transmission Control Protocol\glsspace (TCP)},%
+firstplural={Transmission Control Protocols\glsspace (TCPs)},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission Control Protocol},%
+descriptionplural={Transmission Control Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission Control Protocol},%
+longplural={Transmission Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tic}{}%
+{%
+\gls@defglossaryentry{tic}%
+{%
+name={TIC},%
+sort={TIC},%
+type={acronym},%
+first={Technologies de l'Information et de la Communication\glsspace (TIC)},%
+firstplural={Technologies de l'Information et de la Communications\glsspace (TICs)},%
+text={TIC},%
+plural={TICs},%
+description={Technologies de l'Information et de la Communication},%
+descriptionplural={Technologies de l'Information et de la Communication\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Technologies de l'Information et de la Communication},%
+longplural={Technologies de l'Information et de la Communications},%
+short={TIC},%
+shortplural={TICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uac}{}%
+{%
+\gls@defglossaryentry{uac}%
+{%
+name={UAC},%
+sort={UAC},%
+type={acronym},%
+first={Universit\IeC {\'e} d'Abomey-Calavi\glsspace (UAC)},%
+firstplural={Universit\IeC {\'e} d'Abomey-Calavis\glsspace (UACs)},%
+text={UAC},%
+plural={UACs},%
+description={Université d'Abomey-Calavi},%
+descriptionplural={Université d'Abomey-Calavi\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universit\IeC {\'e} d'Abomey-Calavi},%
+longplural={Universit\IeC {\'e} d'Abomey-Calavis},%
+short={UAC},%
+shortplural={UACs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uml}{}%
+{%
+\gls@defglossaryentry{uml}%
+{%
+name={UML},%
+sort={UML},%
+type={acronym},%
+first={Unified Modeling Language\glsspace (UML)},%
+firstplural={Unified Modeling Languages\glsspace (UMLs)},%
+text={UML},%
+plural={UMLs},%
+description={Unified Modeling Language},%
+descriptionplural={Unified Modeling Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modeling Language},%
+longplural={Unified Modeling Languages},%
+short={UML},%
+shortplural={UMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{zeh}{}%
+{%
+\gls@defglossaryentry{zeh}%
+{%
+name={ZEH},%
+sort={ZEH},%
+type={acronym},%
+first={Zero Entry Hacking\glsspace (ZEH)},%
+firstplural={Zero Entry Hackings\glsspace (ZEHs)},%
+text={ZEH},%
+plural={ZEHs},%
+description={Zero Entry Hacking},%
+descriptionplural={Zero Entry Hacking\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Zero Entry Hacking},%
+longplural={Zero Entry Hackings},%
+short={ZEH},%
+shortplural={ZEHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{acroglo}{}%
+{%
+\gls@defglossaryentry{acroglo}%
+{%
+name={acroglo},%
+sort={acroglo},%
+type={acronym},%
+first={acroglo},%
+firstplural={acroglos},%
+text={acroglo},%
+plural={acroglos},%
+description={A la fois dans les deux\glsadd {acroglog}},%
+descriptionplural={A la fois dans les deux\glsadd {acroglog}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{acroglog}{}%
+{%
+\gls@defglossaryentry{acroglog}%
+{%
+name={acroglo},%
+sort={acroglo},%
+type={main},%
+first={acroglo},%
+firstplural={acroglos},%
+text={acroglo},%
+plural={acroglos},%
+description={A la fois dans les deux.},%
+descriptionplural={A la fois dans les deux.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{glossaire}{}%
+{%
+\gls@defglossaryentry{glossaire}%
+{%
+name={glossaire},%
+sort={glossaire},%
+type={main},%
+first={glossaire},%
+firstplural={glossaires},%
+text={glossaire},%
+plural={glossaires},%
+description={Ici se trouve le contenu du glossaire},%
+descriptionplural={Ici se trouve le contenu du glossaire},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
